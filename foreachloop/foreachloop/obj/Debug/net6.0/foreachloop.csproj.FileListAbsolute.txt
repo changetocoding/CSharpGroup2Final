@@ -1,0 +1,14 @@
+C:\Users\WINDOWS 10 PRO\source\repos\foreachloop\foreachloop\bin\Debug\net6.0\foreachloop.exe
+C:\Users\WINDOWS 10 PRO\source\repos\foreachloop\foreachloop\bin\Debug\net6.0\foreachloop.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\foreachloop\foreachloop\bin\Debug\net6.0\foreachloop.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\foreachloop\foreachloop\bin\Debug\net6.0\foreachloop.dll
+C:\Users\WINDOWS 10 PRO\source\repos\foreachloop\foreachloop\bin\Debug\net6.0\ref\foreachloop.dll
+C:\Users\WINDOWS 10 PRO\source\repos\foreachloop\foreachloop\bin\Debug\net6.0\foreachloop.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\foreachloop\foreachloop\obj\Debug\net6.0\foreachloop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\foreachloop\foreachloop\obj\Debug\net6.0\foreachloop.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\foreachloop\foreachloop\obj\Debug\net6.0\foreachloop.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\foreachloop\foreachloop\obj\Debug\net6.0\foreachloop.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\foreachloop\foreachloop\obj\Debug\net6.0\foreachloop.dll
+C:\Users\WINDOWS 10 PRO\source\repos\foreachloop\foreachloop\obj\Debug\net6.0\ref\foreachloop.dll
+C:\Users\WINDOWS 10 PRO\source\repos\foreachloop\foreachloop\obj\Debug\net6.0\foreachloop.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\foreachloop\foreachloop\obj\Debug\net6.0\foreachloop.genruntimeconfig.cache

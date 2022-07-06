@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10 PRO\source\repos\CBTAPP\CBTAPP\bin\Debug\net6.0\CBTAPP.exe
+C:\Users\WINDOWS 10 PRO\source\repos\CBTAPP\CBTAPP\bin\Debug\net6.0\CBTAPP.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\CBTAPP\CBTAPP\bin\Debug\net6.0\CBTAPP.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\CBTAPP\CBTAPP\bin\Debug\net6.0\CBTAPP.dll
+C:\Users\WINDOWS 10 PRO\source\repos\CBTAPP\CBTAPP\bin\Debug\net6.0\ref\CBTAPP.dll
+C:\Users\WINDOWS 10 PRO\source\repos\CBTAPP\CBTAPP\bin\Debug\net6.0\CBTAPP.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\CBTAPP\CBTAPP\obj\Debug\net6.0\CBTAPP.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\CBTAPP\CBTAPP\obj\Debug\net6.0\CBTAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\CBTAPP\CBTAPP\obj\Debug\net6.0\CBTAPP.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\CBTAPP\CBTAPP\obj\Debug\net6.0\CBTAPP.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\CBTAPP\CBTAPP\obj\Debug\net6.0\CBTAPP.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\CBTAPP\CBTAPP\obj\Debug\net6.0\CBTAPP.dll
+C:\Users\WINDOWS 10 PRO\source\repos\CBTAPP\CBTAPP\obj\Debug\net6.0\ref\CBTAPP.dll
+C:\Users\WINDOWS 10 PRO\source\repos\CBTAPP\CBTAPP\obj\Debug\net6.0\CBTAPP.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\CBTAPP\CBTAPP\obj\Debug\net6.0\CBTAPP.genruntimeconfig.cache

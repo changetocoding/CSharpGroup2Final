@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10 PRO\source\repos\conditional statement\conditional statement\bin\Debug\net6.0\conditional statement.exe
+C:\Users\WINDOWS 10 PRO\source\repos\conditional statement\conditional statement\bin\Debug\net6.0\conditional statement.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\conditional statement\conditional statement\bin\Debug\net6.0\conditional statement.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\conditional statement\conditional statement\bin\Debug\net6.0\conditional statement.dll
+C:\Users\WINDOWS 10 PRO\source\repos\conditional statement\conditional statement\bin\Debug\net6.0\ref\conditional statement.dll
+C:\Users\WINDOWS 10 PRO\source\repos\conditional statement\conditional statement\bin\Debug\net6.0\conditional statement.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\conditional statement\conditional statement\obj\Debug\net6.0\conditional statement.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\conditional statement\conditional statement\obj\Debug\net6.0\conditional statement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\conditional statement\conditional statement\obj\Debug\net6.0\conditional statement.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\conditional statement\conditional statement\obj\Debug\net6.0\conditional statement.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\conditional statement\conditional statement\obj\Debug\net6.0\conditional statement.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\conditional statement\conditional statement\obj\Debug\net6.0\conditional statement.dll
+C:\Users\WINDOWS 10 PRO\source\repos\conditional statement\conditional statement\obj\Debug\net6.0\ref\conditional statement.dll
+C:\Users\WINDOWS 10 PRO\source\repos\conditional statement\conditional statement\obj\Debug\net6.0\conditional statement.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\conditional statement\conditional statement\obj\Debug\net6.0\conditional statement.genruntimeconfig.cache

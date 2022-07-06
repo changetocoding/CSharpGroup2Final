@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "01cf17c2-e316-4396-af02-dbec26528d7d": {
+      "ProjectGuid": "01cf17c2-e316-4396-af02-dbec26528d7d",
+      "DisplayName": "ScrambleCorrection",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

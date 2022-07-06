@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ebf90cf1-d23a-458c-80d3-46cbcd6b34fb": {
+      "ProjectGuid": "ebf90cf1-d23a-458c-80d3-46cbcd6b34fb",
+      "DisplayName": "testphonebook",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

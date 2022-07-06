@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10 PRO\source\repos\cbtjamb app\cbtjamb app\bin\Debug\net6.0\cbtjamb app.exe
+C:\Users\WINDOWS 10 PRO\source\repos\cbtjamb app\cbtjamb app\bin\Debug\net6.0\cbtjamb app.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\cbtjamb app\cbtjamb app\bin\Debug\net6.0\cbtjamb app.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\cbtjamb app\cbtjamb app\bin\Debug\net6.0\cbtjamb app.dll
+C:\Users\WINDOWS 10 PRO\source\repos\cbtjamb app\cbtjamb app\bin\Debug\net6.0\ref\cbtjamb app.dll
+C:\Users\WINDOWS 10 PRO\source\repos\cbtjamb app\cbtjamb app\bin\Debug\net6.0\cbtjamb app.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\cbtjamb app\cbtjamb app\obj\Debug\net6.0\cbtjamb app.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\cbtjamb app\cbtjamb app\obj\Debug\net6.0\cbtjamb app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\cbtjamb app\cbtjamb app\obj\Debug\net6.0\cbtjamb app.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\cbtjamb app\cbtjamb app\obj\Debug\net6.0\cbtjamb app.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\cbtjamb app\cbtjamb app\obj\Debug\net6.0\cbtjamb app.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\cbtjamb app\cbtjamb app\obj\Debug\net6.0\cbtjamb app.dll
+C:\Users\WINDOWS 10 PRO\source\repos\cbtjamb app\cbtjamb app\obj\Debug\net6.0\ref\cbtjamb app.dll
+C:\Users\WINDOWS 10 PRO\source\repos\cbtjamb app\cbtjamb app\obj\Debug\net6.0\cbtjamb app.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\cbtjamb app\cbtjamb app\obj\Debug\net6.0\cbtjamb app.genruntimeconfig.cache

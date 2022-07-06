@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10 PRO\source\repos\FizzbuzzChallenge\FizzbuzzChallenge\obj\Debug\net6.0\FizzbuzzChallenge.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\FizzbuzzChallenge\FizzbuzzChallenge\obj\Debug\net6.0\FizzbuzzChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\FizzbuzzChallenge\FizzbuzzChallenge\obj\Debug\net6.0\FizzbuzzChallenge.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\FizzbuzzChallenge\FizzbuzzChallenge\obj\Debug\net6.0\FizzbuzzChallenge.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\FizzbuzzChallenge\FizzbuzzChallenge\obj\Debug\net6.0\FizzbuzzChallenge.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\FizzbuzzChallenge\FizzbuzzChallenge\bin\Debug\net6.0\FizzbuzzChallenge.exe
+C:\Users\WINDOWS 10 PRO\source\repos\FizzbuzzChallenge\FizzbuzzChallenge\bin\Debug\net6.0\FizzbuzzChallenge.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\FizzbuzzChallenge\FizzbuzzChallenge\bin\Debug\net6.0\FizzbuzzChallenge.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\FizzbuzzChallenge\FizzbuzzChallenge\bin\Debug\net6.0\FizzbuzzChallenge.dll
+C:\Users\WINDOWS 10 PRO\source\repos\FizzbuzzChallenge\FizzbuzzChallenge\bin\Debug\net6.0\ref\FizzbuzzChallenge.dll
+C:\Users\WINDOWS 10 PRO\source\repos\FizzbuzzChallenge\FizzbuzzChallenge\bin\Debug\net6.0\FizzbuzzChallenge.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\FizzbuzzChallenge\FizzbuzzChallenge\obj\Debug\net6.0\FizzbuzzChallenge.dll
+C:\Users\WINDOWS 10 PRO\source\repos\FizzbuzzChallenge\FizzbuzzChallenge\obj\Debug\net6.0\ref\FizzbuzzChallenge.dll
+C:\Users\WINDOWS 10 PRO\source\repos\FizzbuzzChallenge\FizzbuzzChallenge\obj\Debug\net6.0\FizzbuzzChallenge.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\FizzbuzzChallenge\FizzbuzzChallenge\obj\Debug\net6.0\FizzbuzzChallenge.genruntimeconfig.cache

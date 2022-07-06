@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10 PRO\source\repos\correction\correction\bin\Debug\net6.0\correction.exe
+C:\Users\WINDOWS 10 PRO\source\repos\correction\correction\bin\Debug\net6.0\correction.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\correction\correction\bin\Debug\net6.0\correction.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\correction\correction\bin\Debug\net6.0\correction.dll
+C:\Users\WINDOWS 10 PRO\source\repos\correction\correction\bin\Debug\net6.0\ref\correction.dll
+C:\Users\WINDOWS 10 PRO\source\repos\correction\correction\bin\Debug\net6.0\correction.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\correction\correction\obj\Debug\net6.0\correction.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\correction\correction\obj\Debug\net6.0\correction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\correction\correction\obj\Debug\net6.0\correction.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\correction\correction\obj\Debug\net6.0\correction.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\correction\correction\obj\Debug\net6.0\correction.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\correction\correction\obj\Debug\net6.0\correction.dll
+C:\Users\WINDOWS 10 PRO\source\repos\correction\correction\obj\Debug\net6.0\ref\correction.dll
+C:\Users\WINDOWS 10 PRO\source\repos\correction\correction\obj\Debug\net6.0\correction.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\correction\correction\obj\Debug\net6.0\correction.genruntimeconfig.cache

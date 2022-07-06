@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10 PRO\source\repos\methods\methods\bin\Debug\net6.0\methods.exe
+C:\Users\WINDOWS 10 PRO\source\repos\methods\methods\bin\Debug\net6.0\methods.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\methods\methods\bin\Debug\net6.0\methods.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\methods\methods\bin\Debug\net6.0\methods.dll
+C:\Users\WINDOWS 10 PRO\source\repos\methods\methods\bin\Debug\net6.0\ref\methods.dll
+C:\Users\WINDOWS 10 PRO\source\repos\methods\methods\bin\Debug\net6.0\methods.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\methods\methods\obj\Debug\net6.0\methods.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\methods\methods\obj\Debug\net6.0\methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\methods\methods\obj\Debug\net6.0\methods.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\methods\methods\obj\Debug\net6.0\methods.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\methods\methods\obj\Debug\net6.0\methods.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\methods\methods\obj\Debug\net6.0\methods.dll
+C:\Users\WINDOWS 10 PRO\source\repos\methods\methods\obj\Debug\net6.0\ref\methods.dll
+C:\Users\WINDOWS 10 PRO\source\repos\methods\methods\obj\Debug\net6.0\methods.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\methods\methods\obj\Debug\net6.0\methods.genruntimeconfig.cache

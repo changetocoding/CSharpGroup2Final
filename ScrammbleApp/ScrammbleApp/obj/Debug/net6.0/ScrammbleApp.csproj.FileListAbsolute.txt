@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10 PRO\source\repos\ScrammbleApp\ScrammbleApp\bin\Debug\net6.0\ScrammbleApp.exe
+C:\Users\WINDOWS 10 PRO\source\repos\ScrammbleApp\ScrammbleApp\bin\Debug\net6.0\ScrammbleApp.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\ScrammbleApp\ScrammbleApp\bin\Debug\net6.0\ScrammbleApp.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\ScrammbleApp\ScrammbleApp\bin\Debug\net6.0\ScrammbleApp.dll
+C:\Users\WINDOWS 10 PRO\source\repos\ScrammbleApp\ScrammbleApp\bin\Debug\net6.0\ref\ScrammbleApp.dll
+C:\Users\WINDOWS 10 PRO\source\repos\ScrammbleApp\ScrammbleApp\bin\Debug\net6.0\ScrammbleApp.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\ScrammbleApp\ScrammbleApp\obj\Debug\net6.0\ScrammbleApp.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\ScrammbleApp\ScrammbleApp\obj\Debug\net6.0\ScrammbleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\ScrammbleApp\ScrammbleApp\obj\Debug\net6.0\ScrammbleApp.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\ScrammbleApp\ScrammbleApp\obj\Debug\net6.0\ScrammbleApp.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\ScrammbleApp\ScrammbleApp\obj\Debug\net6.0\ScrammbleApp.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\ScrammbleApp\ScrammbleApp\obj\Debug\net6.0\ScrammbleApp.dll
+C:\Users\WINDOWS 10 PRO\source\repos\ScrammbleApp\ScrammbleApp\obj\Debug\net6.0\ref\ScrammbleApp.dll
+C:\Users\WINDOWS 10 PRO\source\repos\ScrammbleApp\ScrammbleApp\obj\Debug\net6.0\ScrammbleApp.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\ScrammbleApp\ScrammbleApp\obj\Debug\net6.0\ScrammbleApp.genruntimeconfig.cache

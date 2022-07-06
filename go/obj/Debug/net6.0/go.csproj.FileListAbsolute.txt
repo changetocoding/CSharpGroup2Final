@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10 PRO\source\repos\go\bin\Debug\net6.0\go.exe
+C:\Users\WINDOWS 10 PRO\source\repos\go\bin\Debug\net6.0\go.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\go\bin\Debug\net6.0\go.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\go\bin\Debug\net6.0\go.dll
+C:\Users\WINDOWS 10 PRO\source\repos\go\bin\Debug\net6.0\ref\go.dll
+C:\Users\WINDOWS 10 PRO\source\repos\go\bin\Debug\net6.0\go.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\go\obj\Debug\net6.0\go.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\go\obj\Debug\net6.0\go.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\go\obj\Debug\net6.0\go.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\go\obj\Debug\net6.0\go.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\go\obj\Debug\net6.0\go.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\go\obj\Debug\net6.0\go.dll
+C:\Users\WINDOWS 10 PRO\source\repos\go\obj\Debug\net6.0\ref\go.dll
+C:\Users\WINDOWS 10 PRO\source\repos\go\obj\Debug\net6.0\go.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\go\obj\Debug\net6.0\go.genruntimeconfig.cache

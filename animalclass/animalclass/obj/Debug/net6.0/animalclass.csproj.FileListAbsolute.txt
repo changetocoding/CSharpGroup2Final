@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10 PRO\source\repos\animalclass\animalclass\bin\Debug\net6.0\animalclass.exe
+C:\Users\WINDOWS 10 PRO\source\repos\animalclass\animalclass\bin\Debug\net6.0\animalclass.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\animalclass\animalclass\bin\Debug\net6.0\animalclass.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\animalclass\animalclass\bin\Debug\net6.0\animalclass.dll
+C:\Users\WINDOWS 10 PRO\source\repos\animalclass\animalclass\bin\Debug\net6.0\ref\animalclass.dll
+C:\Users\WINDOWS 10 PRO\source\repos\animalclass\animalclass\bin\Debug\net6.0\animalclass.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\animalclass\animalclass\obj\Debug\net6.0\animalclass.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\animalclass\animalclass\obj\Debug\net6.0\animalclass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\animalclass\animalclass\obj\Debug\net6.0\animalclass.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\animalclass\animalclass\obj\Debug\net6.0\animalclass.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\animalclass\animalclass\obj\Debug\net6.0\animalclass.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\animalclass\animalclass\obj\Debug\net6.0\animalclass.dll
+C:\Users\WINDOWS 10 PRO\source\repos\animalclass\animalclass\obj\Debug\net6.0\ref\animalclass.dll
+C:\Users\WINDOWS 10 PRO\source\repos\animalclass\animalclass\obj\Debug\net6.0\animalclass.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\animalclass\animalclass\obj\Debug\net6.0\animalclass.genruntimeconfig.cache

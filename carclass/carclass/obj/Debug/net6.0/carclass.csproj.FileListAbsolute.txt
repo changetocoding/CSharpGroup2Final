@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10 PRO\source\repos\carclass\carclass\bin\Debug\net6.0\carclass.exe
+C:\Users\WINDOWS 10 PRO\source\repos\carclass\carclass\bin\Debug\net6.0\carclass.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\carclass\carclass\bin\Debug\net6.0\carclass.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\carclass\carclass\bin\Debug\net6.0\carclass.dll
+C:\Users\WINDOWS 10 PRO\source\repos\carclass\carclass\bin\Debug\net6.0\ref\carclass.dll
+C:\Users\WINDOWS 10 PRO\source\repos\carclass\carclass\bin\Debug\net6.0\carclass.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\carclass\carclass\obj\Debug\net6.0\carclass.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\carclass\carclass\obj\Debug\net6.0\carclass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\carclass\carclass\obj\Debug\net6.0\carclass.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\carclass\carclass\obj\Debug\net6.0\carclass.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\carclass\carclass\obj\Debug\net6.0\carclass.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\carclass\carclass\obj\Debug\net6.0\carclass.dll
+C:\Users\WINDOWS 10 PRO\source\repos\carclass\carclass\obj\Debug\net6.0\ref\carclass.dll
+C:\Users\WINDOWS 10 PRO\source\repos\carclass\carclass\obj\Debug\net6.0\carclass.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\carclass\carclass\obj\Debug\net6.0\carclass.genruntimeconfig.cache

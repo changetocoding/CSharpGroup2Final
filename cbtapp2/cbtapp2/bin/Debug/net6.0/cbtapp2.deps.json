@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "cbtapp2/1.0.0": {
+        "runtime": {
+          "cbtapp2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "cbtapp2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

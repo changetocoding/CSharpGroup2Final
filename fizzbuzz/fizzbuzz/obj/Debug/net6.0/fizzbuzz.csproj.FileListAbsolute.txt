@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10 PRO\source\repos\fizzbuzz\fizzbuzz\bin\Debug\net6.0\fizzbuzz.exe
+C:\Users\WINDOWS 10 PRO\source\repos\fizzbuzz\fizzbuzz\bin\Debug\net6.0\fizzbuzz.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\fizzbuzz\fizzbuzz\bin\Debug\net6.0\fizzbuzz.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\fizzbuzz\fizzbuzz\bin\Debug\net6.0\fizzbuzz.dll
+C:\Users\WINDOWS 10 PRO\source\repos\fizzbuzz\fizzbuzz\bin\Debug\net6.0\ref\fizzbuzz.dll
+C:\Users\WINDOWS 10 PRO\source\repos\fizzbuzz\fizzbuzz\bin\Debug\net6.0\fizzbuzz.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\fizzbuzz\fizzbuzz\obj\Debug\net6.0\fizzbuzz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\fizzbuzz\fizzbuzz\obj\Debug\net6.0\fizzbuzz.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\fizzbuzz\fizzbuzz\obj\Debug\net6.0\fizzbuzz.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\fizzbuzz\fizzbuzz\obj\Debug\net6.0\fizzbuzz.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\fizzbuzz\fizzbuzz\obj\Debug\net6.0\fizzbuzz.dll
+C:\Users\WINDOWS 10 PRO\source\repos\fizzbuzz\fizzbuzz\obj\Debug\net6.0\ref\fizzbuzz.dll
+C:\Users\WINDOWS 10 PRO\source\repos\fizzbuzz\fizzbuzz\obj\Debug\net6.0\fizzbuzz.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\fizzbuzz\fizzbuzz\obj\Debug\net6.0\fizzbuzz.genruntimeconfig.cache
+C:\Users\WINDOWS 10 PRO\source\repos\fizzbuzz\fizzbuzz\obj\Debug\net6.0\fizzbuzz.csproj.AssemblyReference.cache

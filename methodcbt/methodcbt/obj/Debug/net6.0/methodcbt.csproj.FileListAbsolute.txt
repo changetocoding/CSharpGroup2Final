@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10 PRO\source\repos\methodcbt\methodcbt\bin\Debug\net6.0\methodcbt.exe
+C:\Users\WINDOWS 10 PRO\source\repos\methodcbt\methodcbt\bin\Debug\net6.0\methodcbt.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\methodcbt\methodcbt\bin\Debug\net6.0\methodcbt.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\methodcbt\methodcbt\bin\Debug\net6.0\methodcbt.dll
+C:\Users\WINDOWS 10 PRO\source\repos\methodcbt\methodcbt\bin\Debug\net6.0\ref\methodcbt.dll
+C:\Users\WINDOWS 10 PRO\source\repos\methodcbt\methodcbt\bin\Debug\net6.0\methodcbt.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\methodcbt\methodcbt\obj\Debug\net6.0\methodcbt.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\methodcbt\methodcbt\obj\Debug\net6.0\methodcbt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\methodcbt\methodcbt\obj\Debug\net6.0\methodcbt.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\methodcbt\methodcbt\obj\Debug\net6.0\methodcbt.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\methodcbt\methodcbt\obj\Debug\net6.0\methodcbt.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\methodcbt\methodcbt\obj\Debug\net6.0\methodcbt.dll
+C:\Users\WINDOWS 10 PRO\source\repos\methodcbt\methodcbt\obj\Debug\net6.0\ref\methodcbt.dll
+C:\Users\WINDOWS 10 PRO\source\repos\methodcbt\methodcbt\obj\Debug\net6.0\methodcbt.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\methodcbt\methodcbt\obj\Debug\net6.0\methodcbt.genruntimeconfig.cache

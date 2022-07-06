@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10 PRO\source\repos\Classworks\bin\Debug\net6.0\Classworks.exe
+C:\Users\WINDOWS 10 PRO\source\repos\Classworks\bin\Debug\net6.0\Classworks.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\Classworks\bin\Debug\net6.0\Classworks.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\Classworks\bin\Debug\net6.0\Classworks.dll
+C:\Users\WINDOWS 10 PRO\source\repos\Classworks\bin\Debug\net6.0\ref\Classworks.dll
+C:\Users\WINDOWS 10 PRO\source\repos\Classworks\bin\Debug\net6.0\Classworks.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\Classworks\obj\Debug\net6.0\Classworks.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\Classworks\obj\Debug\net6.0\Classworks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\Classworks\obj\Debug\net6.0\Classworks.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\Classworks\obj\Debug\net6.0\Classworks.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\Classworks\obj\Debug\net6.0\Classworks.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\Classworks\obj\Debug\net6.0\Classworks.dll
+C:\Users\WINDOWS 10 PRO\source\repos\Classworks\obj\Debug\net6.0\ref\Classworks.dll
+C:\Users\WINDOWS 10 PRO\source\repos\Classworks\obj\Debug\net6.0\Classworks.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\Classworks\obj\Debug\net6.0\Classworks.genruntimeconfig.cache

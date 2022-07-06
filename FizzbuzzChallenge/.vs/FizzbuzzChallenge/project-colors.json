@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "cabe5541-3aed-419f-a87b-a161725c2c8e": {
+      "ProjectGuid": "cabe5541-3aed-419f-a87b-a161725c2c8e",
+      "DisplayName": "FizzbuzzChallenge",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

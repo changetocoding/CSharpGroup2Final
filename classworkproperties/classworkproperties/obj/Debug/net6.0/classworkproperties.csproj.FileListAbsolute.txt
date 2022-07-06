@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10 PRO\source\repos\classworkproperties\classworkproperties\bin\Debug\net6.0\classworkproperties.exe
+C:\Users\WINDOWS 10 PRO\source\repos\classworkproperties\classworkproperties\bin\Debug\net6.0\classworkproperties.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\classworkproperties\classworkproperties\bin\Debug\net6.0\classworkproperties.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\classworkproperties\classworkproperties\bin\Debug\net6.0\classworkproperties.dll
+C:\Users\WINDOWS 10 PRO\source\repos\classworkproperties\classworkproperties\bin\Debug\net6.0\ref\classworkproperties.dll
+C:\Users\WINDOWS 10 PRO\source\repos\classworkproperties\classworkproperties\bin\Debug\net6.0\classworkproperties.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\classworkproperties\classworkproperties\obj\Debug\net6.0\classworkproperties.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\classworkproperties\classworkproperties\obj\Debug\net6.0\classworkproperties.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\classworkproperties\classworkproperties\obj\Debug\net6.0\classworkproperties.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\classworkproperties\classworkproperties\obj\Debug\net6.0\classworkproperties.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\classworkproperties\classworkproperties\obj\Debug\net6.0\classworkproperties.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\classworkproperties\classworkproperties\obj\Debug\net6.0\classworkproperties.dll
+C:\Users\WINDOWS 10 PRO\source\repos\classworkproperties\classworkproperties\obj\Debug\net6.0\ref\classworkproperties.dll
+C:\Users\WINDOWS 10 PRO\source\repos\classworkproperties\classworkproperties\obj\Debug\net6.0\classworkproperties.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\classworkproperties\classworkproperties\obj\Debug\net6.0\classworkproperties.genruntimeconfig.cache

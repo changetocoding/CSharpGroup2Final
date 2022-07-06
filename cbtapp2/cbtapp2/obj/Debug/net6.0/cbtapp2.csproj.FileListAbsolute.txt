@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10 PRO\source\repos\cbtapp2\cbtapp2\bin\Debug\net6.0\cbtapp2.exe
+C:\Users\WINDOWS 10 PRO\source\repos\cbtapp2\cbtapp2\bin\Debug\net6.0\cbtapp2.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\cbtapp2\cbtapp2\bin\Debug\net6.0\cbtapp2.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\cbtapp2\cbtapp2\bin\Debug\net6.0\cbtapp2.dll
+C:\Users\WINDOWS 10 PRO\source\repos\cbtapp2\cbtapp2\bin\Debug\net6.0\ref\cbtapp2.dll
+C:\Users\WINDOWS 10 PRO\source\repos\cbtapp2\cbtapp2\bin\Debug\net6.0\cbtapp2.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\cbtapp2\cbtapp2\obj\Debug\net6.0\cbtapp2.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\cbtapp2\cbtapp2\obj\Debug\net6.0\cbtapp2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\cbtapp2\cbtapp2\obj\Debug\net6.0\cbtapp2.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\cbtapp2\cbtapp2\obj\Debug\net6.0\cbtapp2.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\cbtapp2\cbtapp2\obj\Debug\net6.0\cbtapp2.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\cbtapp2\cbtapp2\obj\Debug\net6.0\cbtapp2.dll
+C:\Users\WINDOWS 10 PRO\source\repos\cbtapp2\cbtapp2\obj\Debug\net6.0\ref\cbtapp2.dll
+C:\Users\WINDOWS 10 PRO\source\repos\cbtapp2\cbtapp2\obj\Debug\net6.0\cbtapp2.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\cbtapp2\cbtapp2\obj\Debug\net6.0\cbtapp2.genruntimeconfig.cache

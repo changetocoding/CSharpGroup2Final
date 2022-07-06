@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10 PRO\source\repos\Iterating\Iterating\bin\Debug\net6.0\Iterating.exe
+C:\Users\WINDOWS 10 PRO\source\repos\Iterating\Iterating\bin\Debug\net6.0\Iterating.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\Iterating\Iterating\bin\Debug\net6.0\Iterating.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\Iterating\Iterating\bin\Debug\net6.0\Iterating.dll
+C:\Users\WINDOWS 10 PRO\source\repos\Iterating\Iterating\bin\Debug\net6.0\ref\Iterating.dll
+C:\Users\WINDOWS 10 PRO\source\repos\Iterating\Iterating\bin\Debug\net6.0\Iterating.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\Iterating\Iterating\obj\Debug\net6.0\Iterating.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\Iterating\Iterating\obj\Debug\net6.0\Iterating.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\Iterating\Iterating\obj\Debug\net6.0\Iterating.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\Iterating\Iterating\obj\Debug\net6.0\Iterating.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\Iterating\Iterating\obj\Debug\net6.0\Iterating.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\Iterating\Iterating\obj\Debug\net6.0\Iterating.dll
+C:\Users\WINDOWS 10 PRO\source\repos\Iterating\Iterating\obj\Debug\net6.0\ref\Iterating.dll
+C:\Users\WINDOWS 10 PRO\source\repos\Iterating\Iterating\obj\Debug\net6.0\Iterating.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\Iterating\Iterating\obj\Debug\net6.0\Iterating.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10 PRO\source\repos\GroupPoject2\GroupPoject2\bin\Debug\net6.0\GroupPoject2.exe
+C:\Users\WINDOWS 10 PRO\source\repos\GroupPoject2\GroupPoject2\bin\Debug\net6.0\GroupPoject2.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\GroupPoject2\GroupPoject2\bin\Debug\net6.0\GroupPoject2.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\GroupPoject2\GroupPoject2\bin\Debug\net6.0\GroupPoject2.dll
+C:\Users\WINDOWS 10 PRO\source\repos\GroupPoject2\GroupPoject2\bin\Debug\net6.0\ref\GroupPoject2.dll
+C:\Users\WINDOWS 10 PRO\source\repos\GroupPoject2\GroupPoject2\bin\Debug\net6.0\GroupPoject2.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\GroupPoject2\GroupPoject2\obj\Debug\net6.0\GroupPoject2.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\GroupPoject2\GroupPoject2\obj\Debug\net6.0\GroupPoject2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\GroupPoject2\GroupPoject2\obj\Debug\net6.0\GroupPoject2.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\GroupPoject2\GroupPoject2\obj\Debug\net6.0\GroupPoject2.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\GroupPoject2\GroupPoject2\obj\Debug\net6.0\GroupPoject2.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\GroupPoject2\GroupPoject2\obj\Debug\net6.0\GroupPoject2.dll
+C:\Users\WINDOWS 10 PRO\source\repos\GroupPoject2\GroupPoject2\obj\Debug\net6.0\ref\GroupPoject2.dll
+C:\Users\WINDOWS 10 PRO\source\repos\GroupPoject2\GroupPoject2\obj\Debug\net6.0\GroupPoject2.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\GroupPoject2\GroupPoject2\obj\Debug\net6.0\GroupPoject2.genruntimeconfig.cache

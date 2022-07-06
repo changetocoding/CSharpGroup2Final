@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "dcdc1fa0-0bed-4288-a1d0-8696b8bbbde9": {
+      "ProjectGuid": "dcdc1fa0-0bed-4288-a1d0-8696b8bbbde9",
+      "DisplayName": "scrambletest",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
