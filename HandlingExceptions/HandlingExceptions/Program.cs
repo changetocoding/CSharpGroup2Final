@@ -18,11 +18,11 @@ catch (DivideByZeroException err)
 {
     Console.WriteLine(err.Message);
 }
-catch (Exception no)
+catch (Exception err)
 {
-    Console.WriteLine(no);
+    Console.WriteLine(err);
 }
 finally
 {
-    Console.WriteLine("thank u");
+    Console.WriteLine("good one ");
 }
