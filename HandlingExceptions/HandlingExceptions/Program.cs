@@ -1,4 +1,5 @@
 ﻿
+
 try
 {
     Console.WriteLine("first number");
@@ -7,7 +8,7 @@ try
     Console.WriteLine("second nnumber");
     string num2 = Console.ReadLine();
 
-    Console.WriteLine((decimal)(int.Parse(num1) * (decimal)(int.Parse(num2))));
+    Console.WriteLine((decimal)(int.Parse(num1) / (decimal)(int.Parse(num2))));
 
 }
 catch (FormatException error)

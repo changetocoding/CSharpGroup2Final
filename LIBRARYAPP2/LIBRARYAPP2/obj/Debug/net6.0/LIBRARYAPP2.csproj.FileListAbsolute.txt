@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10 PRO\source\repos\LIBRARYAPP2\LIBRARYAPP2\bin\Debug\net6.0\LIBRARYAPP2.exe
+C:\Users\WINDOWS 10 PRO\source\repos\LIBRARYAPP2\LIBRARYAPP2\bin\Debug\net6.0\LIBRARYAPP2.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\LIBRARYAPP2\LIBRARYAPP2\bin\Debug\net6.0\LIBRARYAPP2.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\LIBRARYAPP2\LIBRARYAPP2\bin\Debug\net6.0\LIBRARYAPP2.dll
+C:\Users\WINDOWS 10 PRO\source\repos\LIBRARYAPP2\LIBRARYAPP2\bin\Debug\net6.0\ref\LIBRARYAPP2.dll
+C:\Users\WINDOWS 10 PRO\source\repos\LIBRARYAPP2\LIBRARYAPP2\bin\Debug\net6.0\LIBRARYAPP2.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\LIBRARYAPP2\LIBRARYAPP2\obj\Debug\net6.0\LIBRARYAPP2.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\LIBRARYAPP2\LIBRARYAPP2\obj\Debug\net6.0\LIBRARYAPP2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\LIBRARYAPP2\LIBRARYAPP2\obj\Debug\net6.0\LIBRARYAPP2.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\LIBRARYAPP2\LIBRARYAPP2\obj\Debug\net6.0\LIBRARYAPP2.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\LIBRARYAPP2\LIBRARYAPP2\obj\Debug\net6.0\LIBRARYAPP2.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\LIBRARYAPP2\LIBRARYAPP2\obj\Debug\net6.0\LIBRARYAPP2.dll
+C:\Users\WINDOWS 10 PRO\source\repos\LIBRARYAPP2\LIBRARYAPP2\obj\Debug\net6.0\ref\LIBRARYAPP2.dll
+C:\Users\WINDOWS 10 PRO\source\repos\LIBRARYAPP2\LIBRARYAPP2\obj\Debug\net6.0\LIBRARYAPP2.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\LIBRARYAPP2\LIBRARYAPP2\obj\Debug\net6.0\LIBRARYAPP2.genruntimeconfig.cache

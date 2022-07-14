@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10 PRO\source\repos\Debuging2\Debuging2\obj\Debug\net6.0\Debuging2.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\Debuging2\Debuging2\obj\Debug\net6.0\Debuging2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\Debuging2\Debuging2\obj\Debug\net6.0\Debuging2.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\Debuging2\Debuging2\obj\Debug\net6.0\Debuging2.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\Debuging2\Debuging2\obj\Debug\net6.0\Debuging2.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\Debuging2\Debuging2\bin\Debug\net6.0\Debuging2.exe
+C:\Users\WINDOWS 10 PRO\source\repos\Debuging2\Debuging2\bin\Debug\net6.0\Debuging2.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\Debuging2\Debuging2\bin\Debug\net6.0\Debuging2.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\Debuging2\Debuging2\bin\Debug\net6.0\Debuging2.dll
+C:\Users\WINDOWS 10 PRO\source\repos\Debuging2\Debuging2\bin\Debug\net6.0\ref\Debuging2.dll
+C:\Users\WINDOWS 10 PRO\source\repos\Debuging2\Debuging2\bin\Debug\net6.0\Debuging2.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\Debuging2\Debuging2\obj\Debug\net6.0\Debuging2.dll
+C:\Users\WINDOWS 10 PRO\source\repos\Debuging2\Debuging2\obj\Debug\net6.0\ref\Debuging2.dll
+C:\Users\WINDOWS 10 PRO\source\repos\Debuging2\Debuging2\obj\Debug\net6.0\Debuging2.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\Debuging2\Debuging2\obj\Debug\net6.0\Debuging2.genruntimeconfig.cache

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0ccfce57-cfbb-45d6-be87-fe601caee34a": {
+      "ProjectGuid": "0ccfce57-cfbb-45d6-be87-fe601caee34a",
+      "DisplayName": "Library app john",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

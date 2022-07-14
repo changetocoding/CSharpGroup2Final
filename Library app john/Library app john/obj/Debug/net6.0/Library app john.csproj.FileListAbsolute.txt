@@ -1,0 +1,14 @@
+C:\Users\WINDOWS 10 PRO\source\repos\Library app john\Library app john\bin\Debug\net6.0\Library app john.exe
+C:\Users\WINDOWS 10 PRO\source\repos\Library app john\Library app john\bin\Debug\net6.0\Library app john.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\Library app john\Library app john\bin\Debug\net6.0\Library app john.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\Library app john\Library app john\bin\Debug\net6.0\Library app john.dll
+C:\Users\WINDOWS 10 PRO\source\repos\Library app john\Library app john\bin\Debug\net6.0\ref\Library app john.dll
+C:\Users\WINDOWS 10 PRO\source\repos\Library app john\Library app john\bin\Debug\net6.0\Library app john.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\Library app john\Library app john\obj\Debug\net6.0\Library app john.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\Library app john\Library app john\obj\Debug\net6.0\Library app john.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\Library app john\Library app john\obj\Debug\net6.0\Library app john.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\Library app john\Library app john\obj\Debug\net6.0\Library app john.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\Library app john\Library app john\obj\Debug\net6.0\Library app john.dll
+C:\Users\WINDOWS 10 PRO\source\repos\Library app john\Library app john\obj\Debug\net6.0\ref\Library app john.dll
+C:\Users\WINDOWS 10 PRO\source\repos\Library app john\Library app john\obj\Debug\net6.0\Library app john.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\Library app john\Library app john\obj\Debug\net6.0\Library app john.genruntimeconfig.cache
