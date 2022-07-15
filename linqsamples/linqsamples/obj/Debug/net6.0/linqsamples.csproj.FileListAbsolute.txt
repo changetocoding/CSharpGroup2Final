@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10 PRO\source\repos\linqsamples\linqsamples\bin\Debug\net6.0\linqsamples.exe
+C:\Users\WINDOWS 10 PRO\source\repos\linqsamples\linqsamples\bin\Debug\net6.0\linqsamples.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\linqsamples\linqsamples\bin\Debug\net6.0\linqsamples.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\linqsamples\linqsamples\bin\Debug\net6.0\linqsamples.dll
+C:\Users\WINDOWS 10 PRO\source\repos\linqsamples\linqsamples\bin\Debug\net6.0\ref\linqsamples.dll
+C:\Users\WINDOWS 10 PRO\source\repos\linqsamples\linqsamples\bin\Debug\net6.0\linqsamples.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\linqsamples\linqsamples\obj\Debug\net6.0\linqsamples.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\linqsamples\linqsamples\obj\Debug\net6.0\linqsamples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\linqsamples\linqsamples\obj\Debug\net6.0\linqsamples.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\linqsamples\linqsamples\obj\Debug\net6.0\linqsamples.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\linqsamples\linqsamples\obj\Debug\net6.0\linqsamples.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\linqsamples\linqsamples\obj\Debug\net6.0\linqsamples.dll
+C:\Users\WINDOWS 10 PRO\source\repos\linqsamples\linqsamples\obj\Debug\net6.0\ref\linqsamples.dll
+C:\Users\WINDOWS 10 PRO\source\repos\linqsamples\linqsamples\obj\Debug\net6.0\linqsamples.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\linqsamples\linqsamples\obj\Debug\net6.0\linqsamples.genruntimeconfig.cache

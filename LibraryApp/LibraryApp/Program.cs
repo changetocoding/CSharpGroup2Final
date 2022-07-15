@@ -2,109 +2,106 @@
 {
     class program
     {
-        static void Main (string[] args)
+        static void Main(string[] args)
         {
             Console.WriteLine("                       WELCOME TO Z-LIBRARY");
+            Console.WriteLine("             SELECT YOUR INTRESTED BOOK WITH THE BOOK NUMBER!!!");
 
             Dictionary<string, string> books = new Dictionary<string, string>();
 
-            books.Add("1", "(1) Sleeping");
-            books.Add("2", "(2).Research");
-            books.Add("3", "(3).Coding");
-            books.Add("4", "(4)Analysis");
-            books.Add("5", "(5).Movies");
-            books.Add("6", "(6).Night Walks");
-
-            Console.WriteLine("What do u want to do?.. BORROW, OR RETURN A BOOK");
+            books.Add("1", "Sleeping");
+            books.Add("2", "Research");
+            books.Add("3", "Coding");
+            books.Add("4", "Analysis");
+            books.Add("5", "Movies");
+            books.Add("6", "Night Walks");
             while (true)
-                {
-                   
-                string option = Console.ReadLine();
+            {
 
-                if (option == "Borrow")
+            
+                try 
                 {
-                    foreach (var list in books)
-                    {
-                        Console.WriteLine(list.Value);
-                    }
+                    Console.WriteLine("What do u want to do?.. BORROW, OR RETURN A BOOK");
+                     string option = Console.ReadLine();
 
-                    Console.WriteLine("which book do u want borrow");
-                    string answer = Console.ReadLine();
-                    if (books.ContainsKey(answer))
+                    if (option == "Borrow")
                     {
-                        Console.WriteLine($"Book {books[answer]} borrowed");
-                        books.Remove(answer);
-                        Console.WriteLine("wat do u want to do next");
-                    }
-                    else if (!books.ContainsKey(answer))
-                    {
-                        Console.WriteLine("choose a book in the list of books available");
-                        break;
-                    }
-                }
-
-                else if (option == "Return")
-                {
-                    try
-                    {
-                        Console.WriteLine("how long have u keep the book");
-                        string numdays = Console.ReadLine();
-                        if (int.Parse(numdays) <= 10)
+                        foreach (var list in books)
                         {
-                            Console.WriteLine("book returned sucessfully");
+                            Console.WriteLine(list);
+                        }
+
+                        Console.WriteLine("which book do u want borrow");
+                        string answer = Console.ReadLine();
+                        if (books.ContainsKey(answer))
+                        {
+                            Console.WriteLine($"Book {books[answer]} borrowed");
+                            books.Remove(answer);
+                            Console.WriteLine("wat do u want to do next");
+                            Console.WriteLine("Borrow or Return a book");
+                        }
+                        else if (!books.ContainsKey(answer))
+                        {
+                            Console.WriteLine("choose a book in the list of books available");
+
+                        }
+                    
+                        foreach (var list in books)
+                        {
+                            Console.WriteLine(list);
+                        }
+
+                        if (books.Count == 0)
+                        {
+                            Console.WriteLine("Shelve Emptied");
                             break;
                         }
+                    }
 
-                        else if (int.Parse(numdays) >= 11 && int.Parse(numdays) <= 30)
-                        {
-                            int amount = int.Parse(numdays) - 10;
-                            Console.WriteLine($"u owe {amount * 50}");
-                        }
-                        else if (int.Parse(numdays) > 10 && int.Parse(numdays) == 30)
-                        {
-                            int amount = int.Parse(numdays) - 10;
+                    else if (option == "Return")
+                    {
+                        Console.WriteLine("How Many Days Did You Keep The Book");
+                        string days = Console.ReadLine();
 
-                            Console.WriteLine($" u owe {amount * 100}");
-                        }
-                        else
+                        int fine = int.Parse(days) - 10;
+
+                        if (int.Parse(days) <= 10)
                         {
-                            Console.WriteLine("invalid input");
+                            Console.WriteLine("Enter No On First Page Of book");
+                            string no = Console.ReadLine();
+                            
+
+                            if (books.ContainsKey(no))
+                            {
+                                Console.WriteLine($"{books[no]} Successfully Returned");
+                                
+                            }
                         }
-                        break;
+                        else if (int.Parse(days) >= 11 && int.Parse(days) <= 30)
+                        {
+                            Console.WriteLine("Book Successfully Returned");
+
+                            Console.WriteLine($"A Fine of {fine * 50} Is To Be Paid");
+                        }
+
+                        else if (int.Parse(days) >= 31)
+                        {
+                            Console.WriteLine($"A Fine of {fine * 100} Is To Be Paid");
+                        }
                     }
-                    catch (FormatException err)
-                    {
-                        Console.WriteLine(err.Message);
-                        break;
-                    }
-                    finally
-                    {
-                        Console.WriteLine("Thanks");
-                    }
-                    
-                }    
+                }
+                catch (FormatException err)
+                {
+                    Console.WriteLine(err.Message);
+                    break;
+                }
+                finally
+                {
+                    Console.WriteLine("Thanks you for using Z-Library");
+                }
+
             }
+    
         }
-    }
-}
+}   }            
 
-//Console.WriteLine("how long have u keep the book");
-//string numdays = Console.ReadLine();
-//if (int.Parse(numdays) <=10)
-//{
-//    Console.WriteLine("book returned sucessfully");
-//    break;
-//}
-
-//else if (int.Parse(numdays) >= 11 && int.Parse(numdays) <=30)
-//{
-//    int amount =int.Parse(numdays)- 10;
-//    Console.WriteLine($"u owe {amount * 50}");
-//} 
-//else if (int.Parse(numdays) >10 && int.Parse(numdays) == 30)
-//{
-//    int amount = int.Parse(numdays) - 10;
-
-//    Console.WriteLine($" u owe {amount *100}");
-//}
-//break;
