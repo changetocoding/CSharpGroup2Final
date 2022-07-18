@@ -23,27 +23,38 @@ namespace Linq2
                 new Student("Ajeibi",   "Caro", "KG1",  33.5)
             };
 
-            var Querysyntax = from led in student
-                              where led.ResultAverage >= 50 && led.CurrentClass == "JSS1"
-                              select led;
+            var querysyntax = (from name in student
+                               orderby name.CurrentClass
+                               select name).ToList();
+
+            foreach(var item in querysyntax)
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.ReadLine();
+
+            //var Querysyntax = from led in student
+            //                  where led.ResultAverage >= 50 && led.CurrentClass == "JSS1"
+            //                  select led;
 
             
 
 
-            foreach (var pass in Querysyntax)
-            {
+            //foreach (var pass in Querysyntax)
+            //{
                 
-                Console.WriteLine($"FirstName: {pass.FirstName}, SurName: {pass.SurName}, Class: {pass.CurrentClass}, Average: {pass.ResultAverage}");
-            }
+            //    Console.WriteLine($"FirstName: {pass.FirstName}, SurName: {pass.SurName}, Class: {pass.CurrentClass}, Average: {pass.ResultAverage}");
+            //}
 
-            Console.WriteLine("..................................");
+            //Console.WriteLine("..................................");
 
-            var methodSyntax = student.Where(led => led.ResultAverage >= 48.5 && led.CurrentClass =="KG1");
+            //var methodSyntax = student.Where(led => led.ResultAverage >= 48.5 && led.CurrentClass =="KG1");
 
-            foreach (var pass in methodSyntax)
-            {
-                Console.WriteLine($"FirstName: {pass.FirstName}, SurName: {pass.SurName}, Class: {pass.CurrentClass}, Average: {pass.ResultAverage}");
-            }
+            //foreach (var pass in methodSyntax)
+            //{
+            //    Console.WriteLine($"FirstName: {pass.FirstName}, SurName: {pass.SurName}, Class: {pass.CurrentClass}, Average: {pass.ResultAverage}");
+            //}
 
             //Console.WriteLine("..................................");
 

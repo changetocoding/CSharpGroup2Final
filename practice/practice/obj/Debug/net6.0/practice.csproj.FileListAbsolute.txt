@@ -1,0 +1,14 @@
+C:\Users\WINDOWS 10 PRO\source\repos\practice\practice\bin\Debug\net6.0\practice.exe
+C:\Users\WINDOWS 10 PRO\source\repos\practice\practice\bin\Debug\net6.0\practice.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\practice\practice\bin\Debug\net6.0\practice.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\practice\practice\bin\Debug\net6.0\practice.dll
+C:\Users\WINDOWS 10 PRO\source\repos\practice\practice\bin\Debug\net6.0\ref\practice.dll
+C:\Users\WINDOWS 10 PRO\source\repos\practice\practice\bin\Debug\net6.0\practice.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\practice\practice\obj\Debug\net6.0\practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\practice\practice\obj\Debug\net6.0\practice.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\practice\practice\obj\Debug\net6.0\practice.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\practice\practice\obj\Debug\net6.0\practice.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\practice\practice\obj\Debug\net6.0\practice.dll
+C:\Users\WINDOWS 10 PRO\source\repos\practice\practice\obj\Debug\net6.0\ref\practice.dll
+C:\Users\WINDOWS 10 PRO\source\repos\practice\practice\obj\Debug\net6.0\practice.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\practice\practice\obj\Debug\net6.0\practice.genruntimeconfig.cache

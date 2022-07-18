@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10 PRO\source\repos\ClassWork\ClassWork\bin\Debug\net6.0\LinqAssignmet.exe
+C:\Users\WINDOWS 10 PRO\source\repos\ClassWork\ClassWork\bin\Debug\net6.0\LinqAssignmet.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\ClassWork\ClassWork\bin\Debug\net6.0\LinqAssignmet.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\ClassWork\ClassWork\bin\Debug\net6.0\LinqAssignmet.dll
+C:\Users\WINDOWS 10 PRO\source\repos\ClassWork\ClassWork\bin\Debug\net6.0\ref\LinqAssignmet.dll
+C:\Users\WINDOWS 10 PRO\source\repos\ClassWork\ClassWork\bin\Debug\net6.0\LinqAssignmet.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\ClassWork\ClassWork\obj\Debug\net6.0\LinqAssignmet.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\ClassWork\ClassWork\obj\Debug\net6.0\LinqAssignmet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\ClassWork\ClassWork\obj\Debug\net6.0\LinqAssignmet.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\ClassWork\ClassWork\obj\Debug\net6.0\LinqAssignmet.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\ClassWork\ClassWork\obj\Debug\net6.0\LinqAssignmet.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\ClassWork\ClassWork\obj\Debug\net6.0\LinqAssignmet.dll
+C:\Users\WINDOWS 10 PRO\source\repos\ClassWork\ClassWork\obj\Debug\net6.0\ref\LinqAssignmet.dll
+C:\Users\WINDOWS 10 PRO\source\repos\ClassWork\ClassWork\obj\Debug\net6.0\LinqAssignmet.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\ClassWork\ClassWork\obj\Debug\net6.0\LinqAssignmet.genruntimeconfig.cache

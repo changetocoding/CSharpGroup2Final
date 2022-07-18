@@ -19,9 +19,18 @@ namespace Helloworld
                 new Employee(){Id=4, Name= "Olofu Emmanuel", Email="emacoolofu234@gmail.com"},
             };
 
-            var basicpropQuery = (from emp in employees
-                              select emp.Email).ToList();
-            var basicMethod = employees.Select(emp=>emp.Email).ToList();
+            var ms = employees.OrderByDescending(emp => emp.Id).ToList();
+
+            foreach(var item in ms)
+            {
+                Console.WriteLine(item);
+            }
+
+            //foreach(var item in basicpropQuery)
+            //{
+            //    Console.WriteLine($"Id: {item.Id}   Name: {item.Name}   Email: {item.Email}")
+            //}
+          
 
 
 
