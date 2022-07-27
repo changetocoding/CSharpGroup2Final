@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10 PRO\source\repos\Partitioning Operators\Partitioning Operators\bin\Debug\net6.0\Partitioning Operators.exe
+C:\Users\WINDOWS 10 PRO\source\repos\Partitioning Operators\Partitioning Operators\bin\Debug\net6.0\Partitioning Operators.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\Partitioning Operators\Partitioning Operators\bin\Debug\net6.0\Partitioning Operators.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\Partitioning Operators\Partitioning Operators\bin\Debug\net6.0\Partitioning Operators.dll
+C:\Users\WINDOWS 10 PRO\source\repos\Partitioning Operators\Partitioning Operators\bin\Debug\net6.0\ref\Partitioning Operators.dll
+C:\Users\WINDOWS 10 PRO\source\repos\Partitioning Operators\Partitioning Operators\bin\Debug\net6.0\Partitioning Operators.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\Partitioning Operators\Partitioning Operators\obj\Debug\net6.0\Partitioning Operators.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\Partitioning Operators\Partitioning Operators\obj\Debug\net6.0\Partitioning Operators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\Partitioning Operators\Partitioning Operators\obj\Debug\net6.0\Partitioning Operators.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\Partitioning Operators\Partitioning Operators\obj\Debug\net6.0\Partitioning Operators.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\Partitioning Operators\Partitioning Operators\obj\Debug\net6.0\Partitioning Operators.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\Partitioning Operators\Partitioning Operators\obj\Debug\net6.0\Partitioning Operators.dll
+C:\Users\WINDOWS 10 PRO\source\repos\Partitioning Operators\Partitioning Operators\obj\Debug\net6.0\ref\Partitioning Operators.dll
+C:\Users\WINDOWS 10 PRO\source\repos\Partitioning Operators\Partitioning Operators\obj\Debug\net6.0\Partitioning Operators.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\Partitioning Operators\Partitioning Operators\obj\Debug\net6.0\Partitioning Operators.genruntimeconfig.cache

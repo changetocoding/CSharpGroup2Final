@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a7830448-05e8-481e-89db-218bd0da8b97": {
+      "ProjectGuid": "a7830448-05e8-481e-89db-218bd0da8b97",
+      "DisplayName": "BankApp",
+      "ColorIndex": 0
+    },
+    "52a955fa-459b-4e00-a56f-323fdf05108a": {
+      "ProjectGuid": "52a955fa-459b-4e00-a56f-323fdf05108a",
+      "DisplayName": "BankAppTests",
+      "ColorIndex": 1
+    },
+    "a9d661e9-41fa-4b0b-b535-1eec9666b1c6": {
+      "ProjectGuid": "a9d661e9-41fa-4b0b-b535-1eec9666b1c6",
+      "DisplayName": "BankAppTests1",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "5217739a-18f3-4ec9-b5ef-d12e76556b40": {
+      "ProjectGuid": "5217739a-18f3-4ec9-b5ef-d12e76556b40",
+      "DisplayName": "UnitTestProject1",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

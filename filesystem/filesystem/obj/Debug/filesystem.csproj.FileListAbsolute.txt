@@ -1,0 +1,8 @@
+C:\Users\WINDOWS 10 PRO\source\repos\filesystem\filesystem\bin\Debug\filesystem.exe.config
+C:\Users\WINDOWS 10 PRO\source\repos\filesystem\filesystem\bin\Debug\filesystem.exe
+C:\Users\WINDOWS 10 PRO\source\repos\filesystem\filesystem\bin\Debug\filesystem.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\filesystem\filesystem\obj\Debug\filesystem.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\filesystem\filesystem\obj\Debug\filesystem.csproj.SuggestedBindingRedirects.cache
+C:\Users\WINDOWS 10 PRO\source\repos\filesystem\filesystem\obj\Debug\filesystem.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\filesystem\filesystem\obj\Debug\filesystem.exe
+C:\Users\WINDOWS 10 PRO\source\repos\filesystem\filesystem\obj\Debug\filesystem.pdb

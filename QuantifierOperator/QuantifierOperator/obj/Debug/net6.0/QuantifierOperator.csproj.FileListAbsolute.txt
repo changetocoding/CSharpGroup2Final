@@ -1,0 +1,5 @@
+C:\Users\WINDOWS 10 PRO\source\repos\QuantifierOperator\QuantifierOperator\obj\Debug\net6.0\QuantifierOperator.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\QuantifierOperator\QuantifierOperator\obj\Debug\net6.0\QuantifierOperator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\QuantifierOperator\QuantifierOperator\obj\Debug\net6.0\QuantifierOperator.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\QuantifierOperator\QuantifierOperator\obj\Debug\net6.0\QuantifierOperator.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\QuantifierOperator\QuantifierOperator\obj\Debug\net6.0\QuantifierOperator.csproj.CoreCompileInputs.cache

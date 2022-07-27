@@ -1,0 +1,8 @@
+C:\Users\WINDOWS 10 PRO\source\repos\Scholarship\Scholarship\bin\Debug\Scholarship.exe.config
+C:\Users\WINDOWS 10 PRO\source\repos\Scholarship\Scholarship\bin\Debug\Scholarship.exe
+C:\Users\WINDOWS 10 PRO\source\repos\Scholarship\Scholarship\bin\Debug\Scholarship.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\Scholarship\Scholarship\obj\Debug\Scholarship.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\Scholarship\Scholarship\obj\Debug\Scholarship.csproj.SuggestedBindingRedirects.cache
+C:\Users\WINDOWS 10 PRO\source\repos\Scholarship\Scholarship\obj\Debug\Scholarship.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\Scholarship\Scholarship\obj\Debug\Scholarship.exe
+C:\Users\WINDOWS 10 PRO\source\repos\Scholarship\Scholarship\obj\Debug\Scholarship.pdb

@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10 PRO\source\repos\LinqSetOperators\LinqSetOperators\bin\Debug\net6.0\LinqSetOperators.exe
+C:\Users\WINDOWS 10 PRO\source\repos\LinqSetOperators\LinqSetOperators\bin\Debug\net6.0\LinqSetOperators.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\LinqSetOperators\LinqSetOperators\bin\Debug\net6.0\LinqSetOperators.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\LinqSetOperators\LinqSetOperators\bin\Debug\net6.0\LinqSetOperators.dll
+C:\Users\WINDOWS 10 PRO\source\repos\LinqSetOperators\LinqSetOperators\bin\Debug\net6.0\ref\LinqSetOperators.dll
+C:\Users\WINDOWS 10 PRO\source\repos\LinqSetOperators\LinqSetOperators\bin\Debug\net6.0\LinqSetOperators.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\LinqSetOperators\LinqSetOperators\obj\Debug\net6.0\LinqSetOperators.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\LinqSetOperators\LinqSetOperators\obj\Debug\net6.0\LinqSetOperators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\LinqSetOperators\LinqSetOperators\obj\Debug\net6.0\LinqSetOperators.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\LinqSetOperators\LinqSetOperators\obj\Debug\net6.0\LinqSetOperators.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\LinqSetOperators\LinqSetOperators\obj\Debug\net6.0\LinqSetOperators.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\LinqSetOperators\LinqSetOperators\obj\Debug\net6.0\LinqSetOperators.dll
+C:\Users\WINDOWS 10 PRO\source\repos\LinqSetOperators\LinqSetOperators\obj\Debug\net6.0\ref\LinqSetOperators.dll
+C:\Users\WINDOWS 10 PRO\source\repos\LinqSetOperators\LinqSetOperators\obj\Debug\net6.0\LinqSetOperators.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\LinqSetOperators\LinqSetOperators\obj\Debug\net6.0\LinqSetOperators.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "804ed493-a7ae-4ee5-8994-97c83c4387a6": {
+      "ProjectGuid": "804ed493-a7ae-4ee5-8994-97c83c4387a6",
+      "DisplayName": "SimcardApp",
+      "ColorIndex": 0
+    },
+    "897d348a-d260-4a28-b160-21ab8398cc6b": {
+      "ProjectGuid": "897d348a-d260-4a28-b160-21ab8398cc6b",
+      "DisplayName": "UnitTestSimApp",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

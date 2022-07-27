@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10 PRO\source\repos\TEST LINQ\TEST LINQ\bin\Debug\net6.0\TEST LINQ.exe
+C:\Users\WINDOWS 10 PRO\source\repos\TEST LINQ\TEST LINQ\bin\Debug\net6.0\TEST LINQ.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\TEST LINQ\TEST LINQ\bin\Debug\net6.0\TEST LINQ.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\TEST LINQ\TEST LINQ\bin\Debug\net6.0\TEST LINQ.dll
+C:\Users\WINDOWS 10 PRO\source\repos\TEST LINQ\TEST LINQ\bin\Debug\net6.0\ref\TEST LINQ.dll
+C:\Users\WINDOWS 10 PRO\source\repos\TEST LINQ\TEST LINQ\bin\Debug\net6.0\TEST LINQ.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\TEST LINQ\TEST LINQ\obj\Debug\net6.0\TEST LINQ.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\TEST LINQ\TEST LINQ\obj\Debug\net6.0\TEST LINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\TEST LINQ\TEST LINQ\obj\Debug\net6.0\TEST LINQ.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\TEST LINQ\TEST LINQ\obj\Debug\net6.0\TEST LINQ.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\TEST LINQ\TEST LINQ\obj\Debug\net6.0\TEST LINQ.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\TEST LINQ\TEST LINQ\obj\Debug\net6.0\TEST LINQ.dll
+C:\Users\WINDOWS 10 PRO\source\repos\TEST LINQ\TEST LINQ\obj\Debug\net6.0\ref\TEST LINQ.dll
+C:\Users\WINDOWS 10 PRO\source\repos\TEST LINQ\TEST LINQ\obj\Debug\net6.0\TEST LINQ.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\TEST LINQ\TEST LINQ\obj\Debug\net6.0\TEST LINQ.genruntimeconfig.cache

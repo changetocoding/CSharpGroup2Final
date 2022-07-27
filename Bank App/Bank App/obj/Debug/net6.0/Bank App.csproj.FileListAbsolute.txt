@@ -1,0 +1,5 @@
+C:\Users\WINDOWS 10 PRO\source\repos\Bank App\Bank App\obj\Debug\net6.0\Bank App.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\Bank App\Bank App\obj\Debug\net6.0\Bank App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\Bank App\Bank App\obj\Debug\net6.0\Bank App.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\Bank App\Bank App\obj\Debug\net6.0\Bank App.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\Bank App\Bank App\obj\Debug\net6.0\Bank App.csproj.CoreCompileInputs.cache
