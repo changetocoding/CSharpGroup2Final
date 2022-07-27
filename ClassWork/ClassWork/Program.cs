@@ -104,7 +104,7 @@ namespace LinqAssignmet
 
             //all
 
-            var all metod = students.All(students => students.StudentGrade > 10);
+            var allmetod = students.All(students => students.StudentGrade > 10);
 
             //contains
 
