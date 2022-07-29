@@ -1,0 +1,8 @@
+C:\Users\WINDOWS 10 PRO\source\repos\CompletePhonebookApp\CompletePhonebookApp\bin\Debug\CompletePhonebookApp.exe.config
+C:\Users\WINDOWS 10 PRO\source\repos\CompletePhonebookApp\CompletePhonebookApp\bin\Debug\CompletePhonebookApp.exe
+C:\Users\WINDOWS 10 PRO\source\repos\CompletePhonebookApp\CompletePhonebookApp\bin\Debug\CompletePhonebookApp.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\CompletePhonebookApp\CompletePhonebookApp\obj\Debug\CompletePhonebookApp.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\CompletePhonebookApp\CompletePhonebookApp\obj\Debug\CompletePhonebookApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\WINDOWS 10 PRO\source\repos\CompletePhonebookApp\CompletePhonebookApp\obj\Debug\CompletePhonebookApp.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\CompletePhonebookApp\CompletePhonebookApp\obj\Debug\CompletePhonebookApp.exe
+C:\Users\WINDOWS 10 PRO\source\repos\CompletePhonebookApp\CompletePhonebookApp\obj\Debug\CompletePhonebookApp.pdb

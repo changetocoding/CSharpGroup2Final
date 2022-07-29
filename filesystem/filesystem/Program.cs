@@ -28,14 +28,17 @@ namespace filesystem
                     }
                     else
                     {
-                        try
+                        foreach (string items in directory)
                         {
-                            File.Move(item, $"{destinationFolder},{Path.GetFileName(item)}");
-                            Console.WriteLine("files succesfully moved");
-                        }
-                        catch (Exception err)
-                        {
-                            Console.WriteLine("Image name already exist");
+                            try
+                            {
+                                File.Move(items, $"{destinationFolder},{Path.GetFileName(item)}");
+                                Console.WriteLine("files succesfully moved");
+                            }
+                            catch (Exception err)
+                            {
+                                Console.WriteLine("Image name already exist");
+                            }
                         }
                     }
                 }

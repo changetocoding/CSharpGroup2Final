@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "09ac083e-8b3d-48ef-8200-0153cec68397": {
+      "ProjectGuid": "09ac083e-8b3d-48ef-8200-0153cec68397",
+      "DisplayName": "filesystem",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
