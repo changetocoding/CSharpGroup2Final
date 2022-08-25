@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "75fc6249-0934-45a7-abc0-32aa1cd94e47": {
+      "ProjectGuid": "75fc6249-0934-45a7-abc0-32aa1cd94e47",
+      "DisplayName": "SearchEngine2",
+      "ColorIndex": 0
+    },
+    "43b769cc-87af-4aae-acb8-2563035744a9": {
+      "ProjectGuid": "43b769cc-87af-4aae-acb8-2563035744a9",
+      "DisplayName": "SearchEngineTest",
+      "ColorIndex": 1
+    },
+    "7e085d0b-723f-4754-ac20-43fdd74bbd57": {
+      "ProjectGuid": "7e085d0b-723f-4754-ac20-43fdd74bbd57",
+      "DisplayName": "SearchEngineTest2",
+      "ColorIndex": 2
+    },
+    "c8347dfc-c5b4-4ebc-b386-cfc892f2f0fa": {
+      "ProjectGuid": "c8347dfc-c5b4-4ebc-b386-cfc892f2f0fa",
+      "DisplayName": "TestProject1",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

@@ -1,0 +1,8 @@
+C:\Users\WINDOWS 10 PRO\source\repos\SearchEngine3\SearchEngine3\bin\Debug\SearchEngine3.exe.config
+C:\Users\WINDOWS 10 PRO\source\repos\SearchEngine3\SearchEngine3\bin\Debug\SearchEngine3.exe
+C:\Users\WINDOWS 10 PRO\source\repos\SearchEngine3\SearchEngine3\bin\Debug\SearchEngine3.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\SearchEngine3\SearchEngine3\obj\Debug\SearchEngine3.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\SearchEngine3\SearchEngine3\obj\Debug\SearchEngine3.csproj.SuggestedBindingRedirects.cache
+C:\Users\WINDOWS 10 PRO\source\repos\SearchEngine3\SearchEngine3\obj\Debug\SearchEngine3.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\SearchEngine3\SearchEngine3\obj\Debug\SearchEngine3.exe
+C:\Users\WINDOWS 10 PRO\source\repos\SearchEngine3\SearchEngine3\obj\Debug\SearchEngine3.pdb

@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a74f515e-bd9a-4190-a6d4-025d02042f11": {
+      "ProjectGuid": "a74f515e-bd9a-4190-a6d4-025d02042f11",
+      "DisplayName": "ClassGroupWorkAirlineReservationSystem2",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "b5306500-94f4-47d2-ba52-d3d311045187": {
+      "ProjectGuid": "b5306500-94f4-47d2-ba52-d3d311045187",
+      "DisplayName": "TestProject1",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

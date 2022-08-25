@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8270dfec-3928-4ef1-8e9a-06ab934c2a7f": {
+      "ProjectGuid": "8270dfec-3928-4ef1-8e9a-06ab934c2a7f",
+      "DisplayName": "OtherOfProductWithDB",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

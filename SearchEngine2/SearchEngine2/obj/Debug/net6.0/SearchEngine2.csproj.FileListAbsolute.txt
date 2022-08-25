@@ -1,0 +1,15 @@
+C:\Users\WINDOWS 10 PRO\source\repos\SearchEngine2\SearchEngine2\obj\Debug\net6.0\SearchEngine2.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\SearchEngine2\SearchEngine2\obj\Debug\net6.0\SearchEngine2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\SearchEngine2\SearchEngine2\obj\Debug\net6.0\SearchEngine2.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\SearchEngine2\SearchEngine2\obj\Debug\net6.0\SearchEngine2.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\SearchEngine2\SearchEngine2\obj\Debug\net6.0\SearchEngine2.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\SearchEngine2\SearchEngine2\bin\Debug\net6.0\SearchEngine2.exe
+C:\Users\WINDOWS 10 PRO\source\repos\SearchEngine2\SearchEngine2\bin\Debug\net6.0\SearchEngine2.deps.json
+C:\Users\WINDOWS 10 PRO\source\repos\SearchEngine2\SearchEngine2\bin\Debug\net6.0\SearchEngine2.runtimeconfig.json
+C:\Users\WINDOWS 10 PRO\source\repos\SearchEngine2\SearchEngine2\bin\Debug\net6.0\SearchEngine2.dll
+C:\Users\WINDOWS 10 PRO\source\repos\SearchEngine2\SearchEngine2\bin\Debug\net6.0\ref\SearchEngine2.dll
+C:\Users\WINDOWS 10 PRO\source\repos\SearchEngine2\SearchEngine2\bin\Debug\net6.0\SearchEngine2.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\SearchEngine2\SearchEngine2\obj\Debug\net6.0\SearchEngine2.dll
+C:\Users\WINDOWS 10 PRO\source\repos\SearchEngine2\SearchEngine2\obj\Debug\net6.0\ref\SearchEngine2.dll
+C:\Users\WINDOWS 10 PRO\source\repos\SearchEngine2\SearchEngine2\obj\Debug\net6.0\SearchEngine2.pdb
+C:\Users\WINDOWS 10 PRO\source\repos\SearchEngine2\SearchEngine2\obj\Debug\net6.0\SearchEngine2.genruntimeconfig.cache

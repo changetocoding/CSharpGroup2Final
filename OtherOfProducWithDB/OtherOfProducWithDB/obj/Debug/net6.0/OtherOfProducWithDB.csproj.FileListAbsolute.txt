@@ -1,0 +1,5 @@
+C:\Users\WINDOWS 10 PRO\source\repos\OtherOfProducWithDB\OtherOfProducWithDB\obj\Debug\net6.0\OtherOfProducWithDB.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 10 PRO\source\repos\OtherOfProducWithDB\OtherOfProducWithDB\obj\Debug\net6.0\OtherOfProducWithDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 10 PRO\source\repos\OtherOfProducWithDB\OtherOfProducWithDB\obj\Debug\net6.0\OtherOfProducWithDB.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 10 PRO\source\repos\OtherOfProducWithDB\OtherOfProducWithDB\obj\Debug\net6.0\OtherOfProducWithDB.AssemblyInfo.cs
+C:\Users\WINDOWS 10 PRO\source\repos\OtherOfProducWithDB\OtherOfProducWithDB\obj\Debug\net6.0\OtherOfProducWithDB.csproj.CoreCompileInputs.cache
