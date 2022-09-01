@@ -12,5 +12,4 @@ namespace BankApp.Core.DataAccess
 
         void Update(Account account);
     }
-
 }

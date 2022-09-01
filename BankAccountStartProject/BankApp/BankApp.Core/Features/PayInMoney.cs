@@ -17,21 +17,31 @@ namespace BankApp.Core.Features
         public void Execute(int intoAccountId, decimal amount)
         {
             var into = _accountRepository.GetAccountById(intoAccountId);
-            
-            if(amount > 0)
-            {
-                into.PayIn(amount);
-            }
-            else
-            {
-                throw new Exception();
-            }
+
             if (into.FraudulentActivityDectected())
             {
                 _notificationService.NotifyFraudlentActivity(into);
                 throw new Exception($"Account limit reached you cannot payin at this time");
             }
-            _accountRepository.Update(into);
+
+            else if (amount > 0)
+            {
+                into.PayIn(amount);
+                _accountRepository.Update(into);
+            }
+            else if(amount <= 0)
+            {
+                throw new InvalidOperationException();
+            }
+            else if(amount > into.Balance)
+            {
+                throw new InvalidOperationException();
+            }
+            else
+            {
+                throw new Exception();
+            }
+            
         }
     }
 }

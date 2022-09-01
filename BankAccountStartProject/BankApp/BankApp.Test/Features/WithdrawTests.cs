@@ -7,86 +7,87 @@ using NUnit.Framework;
 
 namespace BankApp.Test.Features
 {
-    class PayInTests
+    class WithdrawTests
     {
+
         [Test]
-        public void CanPayInMoneyIntoAccount()
+        public void CanWithdrawMoneyFromAccount()
         {
             // setup
             var mockNotificationService = new Mock<INotificationService>();
 
             var mockAccountRepo = new Mock<IAccountRepository>();
-            const int intoAccountId = 5;
+            const int intoAccountId = 1;
             var account = new Account { Id = intoAccountId, Balance = 700 };
             mockAccountRepo.Setup(x => x.GetAccountById(intoAccountId)).Returns(account);
 
-            var deposit = new PayInMoney(mockAccountRepo.Object, mockNotificationService.Object);
+            var withdraw = new WithdrawMoney(mockAccountRepo.Object, mockNotificationService.Object);
 
             // act 
-            deposit.Execute(intoAccountId, 2000);
+            withdraw.Execute(intoAccountId, 200);
 
             // assert
-            Assert.That(account.Balance, Is.EqualTo(2700));
+            Assert.That(account.Balance, Is.EqualTo(500));
         }
 
-        // This test is failing fix it
         [Test]
-        public void IfPayInAmountIsNegative_ThenThrowsException()
+        public void IfWithDrawAmountIsNegative_ThenThrowsException()
         {
             // setup
             var mockNotificationService = new Mock<INotificationService>();
 
             var myMock = new Mock<IAccountRepository>();
-            const int intoAccountId = 5;
-            var account = new Account { Id = intoAccountId, Balance = 640 };
-
-            myMock.Setup(x => x.GetAccountById(intoAccountId)).Returns(account);
-
-            var deposite = new PayInMoney(myMock.Object, mockNotificationService.Object);
-
-            // act 
-            Assert.Throws<InvalidOperationException>(() => deposite.Execute(intoAccountId,-230));
-
-            // assert
-            Assert.That(account.Balance, Is.EqualTo(640));
-        }
-
-        [Test]
-        public void CannotPayInAbovePayInLimit()
-        {
-            // setup
-            var mockNotificationService = new Mock<INotificationService>();
-
-            var myMock = new Mock<IAccountRepository>();
-            const int intoAccountId = 5;
-            var account = new Account { Id = intoAccountId, Balance = 850 };
-
-            myMock.Setup(x => x.GetAccountById(intoAccountId)).Returns(account);
-
-            var deposite = new PayInMoney(myMock.Object, mockNotificationService.Object);
-
-            // act 
-            Assert.Throws<InvalidOperationException>(() => deposite.Execute(intoAccountId, 6000));
-
-            // assert
-            Assert.That(account.Balance, Is.EqualTo(850));
-        }
-        [Test]
-        public void CannotPayInZeroToAccount()
-        {
-            // setup
-            var mockNotificationService = new Mock<INotificationService>();
-
-            var myMock = new Mock<IAccountRepository>();
-            const int intoAccountId = 5;
+            const int intoAccountId = 1;
             var account = new Account { Id = intoAccountId, Balance = 1000 };
 
             myMock.Setup(x => x.GetAccountById(intoAccountId)).Returns(account);
 
-            var deposite = new PayInMoney(myMock.Object, mockNotificationService.Object);
+            var withdraw = new WithdrawMoney(myMock.Object, mockNotificationService.Object);
 
             // act 
-            Assert.Throws<InvalidOperationException>(() => deposite.Execute(intoAccountId, 0));
+            Assert.Throws<InvalidOperationException>(() => withdraw.Execute(intoAccountId, -1500));
+
+            // assert
+            Assert.That(account.Balance, Is.EqualTo(1000));
+        }
+
+        [Test]
+        public void CannotWithDrawAboveAccountBalance()
+        {
+            // setup
+            var mockNotificationService = new Mock<INotificationService>();
+
+            var myMock = new Mock<IAccountRepository>();
+            const int intoAccountId = 1;
+            var account = new Account { Id = intoAccountId, Balance = 1000 };
+
+            myMock.Setup(x => x.GetAccountById(intoAccountId)).Returns(account);
+
+            var withdraw = new WithdrawMoney(myMock.Object, mockNotificationService.Object);
+
+            // act 
+            Assert.Throws<InvalidOperationException>(() => withdraw.Execute(intoAccountId, 6000));
+
+            // assert
+            Assert.That(account.Balance, Is.EqualTo(1000));
+        }
+
+        [Test]
+        public void CannotWithDrawZeroFromBalance()
+        {
+            // setup
+            var mockNotificationService = new Mock<INotificationService>();
+
+            var myMock = new Mock<IAccountRepository>();
+            const int intoAccountId = 1;
+            var account = new Account { Id = intoAccountId, Balance = 1000 };
+
+            myMock.Setup(x => x.GetAccountById(intoAccountId)).Returns(account);
+
+            var withdraw = new WithdrawMoney(myMock.Object, mockNotificationService.Object);
+
+            // act 
+            Assert.Throws<InvalidOperationException>(() => withdraw.Execute(intoAccountId, 0));
 
             // assert
             Assert.That(account.Balance, Is.EqualTo(1000));

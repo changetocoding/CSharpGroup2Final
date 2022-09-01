@@ -21,25 +21,33 @@ namespace BankApp.Core.Features
             var from = _accountRepository.GetAccountById(fromAccountId);
             var to = _accountRepository.GetAccountById(toAccountId);
 
-            if (from.CanWithdraw(amount) )
+            // ToDo
+
+            if (from.FraudulentActivityDectected() && to.FraudulentActivityDectected())
+            {
+                _notificationService.NotifyFraudlentActivity(from);
+                _notificationService.NotifyFraudlentActivity(to);
+
+                throw new Exception($"Account limit reached you cannot payin at this time");
+            }
+
+            if (from.CanWithdraw(amount) && amount > 0 )
             {
 
                 from.Withdraw(amount);
                 to.PayIn(amount);
+                _accountRepository.Update(to);
+                _accountRepository.Update(from);
+            }
+            else if (amount > from.Balance)
+            {
+                throw new InvalidOperationException($"Cannot transfer more than available balance");
             }
 
             else
             {
                 throw new Exception();
             }
-            _accountRepository.Update(to);
-            _accountRepository.Update(from);
-           
-
-
-            // ToDo
-
-
         }
     }
 }

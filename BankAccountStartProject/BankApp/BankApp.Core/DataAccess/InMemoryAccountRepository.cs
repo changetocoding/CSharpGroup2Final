@@ -4,12 +4,12 @@ using System.Text.RegularExpressions;
 namespace BankApp.Core.DataAccess
 {
     // Do not write tests for this
-    public class InMemoryAccountRepository : IAccountRepository
+    public class BankApp : IAccountRepository
     {
         private readonly Dictionary<int, Account> _accounts;
         private int _lastId = 1;
 
-        public InMemoryAccountRepository()
+        public BankApp()
         {
             _accounts = new Dictionary<int, Account>();
         }
@@ -36,10 +36,7 @@ namespace BankApp.Core.DataAccess
 
                 return account.Id;
             }
-            else if (emailAddress == emailAddress)
-            {
-                throw new Exception($"Email already exist");
-            }
+            
             else
             {
                 throw new Exception($"Email not valid");
