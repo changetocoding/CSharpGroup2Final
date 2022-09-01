@@ -16,7 +16,7 @@ namespace BankApp.Test.Services
         public void CanAddAnNewAccount()
         {
             // setup
-            var repo = new InMemoryAccountRepository();
+            var repo = new Core.DataAccess.BankApp();
 
             // Act
             var accountId = repo.CreateAccount("test@test.co");
@@ -30,7 +30,7 @@ namespace BankApp.Test.Services
         public void CanSaveAnAccountInTheRepo()
         {
             // setup
-            var repo = new InMemoryAccountRepository();
+            var repo = new Core.DataAccess.BankApp();
             var account = new Account { Id = 10, Balance = 100 };
 
             // Act
@@ -44,7 +44,7 @@ namespace BankApp.Test.Services
         public void WhenAccountDoesNotExist_CannotFetchItFromTheRepo()
         {
             // setup
-            var repo = new InMemoryAccountRepository();
+            var repo = new Core.DataAccess.BankApp();
 
             // Act & Assert
             Assert.Throws<AccountNotFoundException>(() => repo.GetAccountById(0));

@@ -19,22 +19,28 @@ namespace BankApp.Core.Features
         {
             var from = accountRepository.GetAccountById(fromAccountId);
 
-           
-            if (from.CanWithdraw(amount) && from.Balance > 0 )
+            if (from.FraudulentActivityDectected())
+            {
+                notificationService.NotifyFraudlentActivity(from);
+                throw new Exception($"Account limit reached you cannot withdraw at this time");
+            }
+            else if (from.CanWithdraw(amount) && amount > 0)
             {
                 from.Withdraw(amount);
-                
+                accountRepository.Update(from);
+
             }
+            else if (from.IsLowBalance())
+            {  //lowthreshold notofication for low balance should show
+                notificationService.NotifyFundsLow(from);
+            }
+           
             else
             {
                 throw new Exception();
             }
-            //if (from.IsLowBalance())
-            //{
-            //    notificationService.NotifyFundsLow(from);
-            //}
-            accountRepository.Update(from);
-            notificationService.NotifyFundsLow(from);
+            
+           
         }
     }
 }
