@@ -85,11 +85,14 @@ namespace BankApp.Core.DataAccess
             using (var dbContext = new BankContext())
             {
                 var acct = dbContext.AccountDbs.Where(x => x.Id == account.Id).SingleOrDefault();
-                if (acct is Account)
+                if (acct is AccountDb)
                 {
-                    acct.Balance +=  account.Balance;
-                    dbContext.SaveChanges();
+                    acct.PaidIn =+  account.Balance;
+                    
                 }
+                
+                dbContext.SaveChanges();
+                                
             }
 
         }

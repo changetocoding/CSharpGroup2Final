@@ -48,10 +48,6 @@ namespace BankApp.Core.Features
             {
                 throw new Exception();
             }
-           
-           
-
-
         }
     }
 }
