@@ -15,7 +15,7 @@ namespace BankApp.Test.Features.David
         public void CanSaveAnAccountInTheRepo()
         {
             // setup
-            var repo = new InMemoryAccountRepository();
+            var repo = new BankApp.Core.DataAccess.BankApp();
 
             // Act
             var id = repo.CreateAccount("david@test.com");
@@ -29,7 +29,7 @@ namespace BankApp.Test.Features.David
         public void ThrowsOnInvalidEmail()
         {
             // setup
-            var repo = new InMemoryAccountRepository();
+            var repo = new BankApp.Core.DataAccess.BankApp();
 
             // Act
             Assert.Throws<Exception>(() => repo.CreateAccount("david"));
@@ -40,7 +40,7 @@ namespace BankApp.Test.Features.David
         public void WhenAccountDoesNotExist_CannotFetchItFromTheRepo()
         {
             // setup
-            var repo = new InMemoryAccountRepository();
+            var repo = new IBankAccount();
 
             // Act & Assert
             Assert.Throws<AccountNotFoundException>(() => repo.GetAccountById(10));
@@ -50,7 +50,7 @@ namespace BankApp.Test.Features.David
         public void EmailCode()
         {
             // setup
-            var repo = new InMemoryAccountRepository();
+            var repo = new IBankAccount();
 
             Assert.True(repo.ValidatingEmailAddress("david@test.com"));
             Assert.True(repo.ValidatingEmailAddress("david@gmail.co.uk"));
