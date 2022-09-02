@@ -6,7 +6,7 @@ namespace BankApp.Core.Domain
     {
         public const decimal FraudulentActivityLimit = 100_000_000m;
         public const decimal PayInLimit = 10000m;
-        public const decimal LowBalanceThreshold = 1000m;
+        public const decimal LowBalanceThreshold = 5000m;
         public const decimal BalanceLimitForWithdraw = 0m;
 
         public int Id { get; set; }
@@ -32,7 +32,7 @@ namespace BankApp.Core.Domain
             if (!CanWithdraw(amount))
                 throw new InvalidOperationException("Insufficient funds to withdraw");
             //else if (amount <= BalanceLimitForWithdraw)
-            //    throw new InvalidOperationException("You cannot withdraw 0");
+            //throw new InvalidOperationException("You cannot withdraw 0");
 
             Balance = Balance - amount;
             Withdrawn = Withdrawn + amount;

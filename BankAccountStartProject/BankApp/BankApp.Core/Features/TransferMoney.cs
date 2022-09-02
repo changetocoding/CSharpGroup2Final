@@ -23,10 +23,11 @@ namespace BankApp.Core.Features
 
             // ToDo
 
-            if (from.FraudulentActivityDectected() && to.FraudulentActivityDectected())
+            if (from.FraudulentActivityDectected()/*&& to.FraudulentActivityDectected()*/)
             {
                 _notificationService.NotifyFraudlentActivity(from);
-                _notificationService.NotifyFraudlentActivity(to);
+                throw new InvalidOperationException();
+                //_notificationService.NotifyFraudlentActivity(to);
 
                 throw new Exception($"Account limit reached you cannot payin at this time");
             }

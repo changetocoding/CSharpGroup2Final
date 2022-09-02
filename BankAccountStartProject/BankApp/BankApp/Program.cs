@@ -15,7 +15,7 @@ namespace MoneyBox.ConsoleApp
         {
             Console.WriteLine("Hello, World!");
 
-            var repoService = new IBankAccount();
+            var repoService = new DbBankAccount();
             var notificationService = new NotificationService();
 
 

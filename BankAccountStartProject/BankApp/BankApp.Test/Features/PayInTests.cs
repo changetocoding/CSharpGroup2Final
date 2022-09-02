@@ -5,6 +5,7 @@ using BankApp.Core.Services;
 using Moq;
 using NUnit.Framework;
 
+
 namespace BankApp.Test.Features
 {
     class PayInTests
@@ -45,7 +46,7 @@ namespace BankApp.Test.Features
             var deposite = new PayInMoney(myMock.Object, mockNotificationService.Object);
 
             // act 
-            Assert.Throws<InvalidOperationException>(() => deposite.Execute(intoAccountId,-230));
+            Assert.Throws<InvalidOperationException>(() => deposite.Execute(intoAccountId, -230));
 
             // assert
             Assert.That(account.Balance, Is.EqualTo(640));
@@ -66,7 +67,7 @@ namespace BankApp.Test.Features
             var deposite = new PayInMoney(myMock.Object, mockNotificationService.Object);
 
             // act 
-            Assert.Throws<InvalidOperationException>(() => deposite.Execute(intoAccountId, 6000));
+            Assert.Throws<InvalidOperationException>(() => deposite.Execute(intoAccountId, 60000));
 
             // assert
             Assert.That(account.Balance, Is.EqualTo(850));
