@@ -75,8 +75,7 @@ namespace BankApp.Core.DataAccess
         {
             using (var dbContext = new BankContext())
             {
-                return (IEnumerable<Account>) dbContext.AccountDbs.ToList();
-
+                return dbContext.AccountDbs.Select(x => new Account() { Id = x.Id }).ToList();
             }
         }
 
@@ -92,7 +91,7 @@ namespace BankApp.Core.DataAccess
 
                 else
                 {
-
+                   
                    dbacct.Balance = account.Balance;
                    dbacct.PaidIn = account.PaidIn;
                    dbacct.Withdrawn = account.Withdrawn;
