@@ -28,6 +28,14 @@ namespace BankApp.Web.Controllers
                 EmailAddress = x.Email
             });
         }
+        [HttpPost]
+        [Route("CreateAllAccount")]
+        public int CreateAccount(string email)
+        {
+            
+            var users = _accountRepository.CreateAccount(email);
+            return users;  
+        }
 
       
     }

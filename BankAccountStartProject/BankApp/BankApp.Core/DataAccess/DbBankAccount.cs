@@ -62,10 +62,18 @@ namespace BankApp.Core.DataAccess
                 }
                 else
                 {
-                    var account = new Account() { Id = accountId };
+                    var account = new Account()
+                    {
+                        Id = db_acct.Id,
+                        Email=db_acct.Email,
+                        Balance =db_acct.Balance,
+                        Withdrawn = db_acct.Withdrawn,
+                        PaidIn = db_acct.PaidIn
+
+                        
+                    };
                     return account;
                 }
-
             }
 
             throw new NotImplementedException();
@@ -86,7 +94,7 @@ namespace BankApp.Core.DataAccess
                 var dbacct = dbContext.AccountDbs.Where(x => x.Id == account.Id).SingleOrDefault();
                 if (dbacct is null)
                 {
-                    throw new InvalidOperationException($"Id Notot Found");
+                    throw new InvalidOperationException($"Id Not Found");
                 }
 
                 else
