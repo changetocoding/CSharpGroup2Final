@@ -29,8 +29,8 @@ namespace BankApp.Core.DataAccess
             {
                 if (ValidatingEmailAddress(emailAddress) is true)
                 {
-                    var check = dbContext.AccountDbs.Where(x => x.Email == emailAddress).FirstOrDefault();
-                    if (dbContext.AccountDbs.Contains(check))
+                    var check = dbContext.AccountDbs.FirstOrDefault(x => x.Email == emailAddress);
+                    if (check is null)
                     {
                         throw new InvalidOperationException($"Account Already Exist");
 
@@ -54,8 +54,8 @@ namespace BankApp.Core.DataAccess
         {
             using (var dbContext = new BankContext())
             {
-                var db_acct = dbContext.AccountDbs.Where(x => x.Id == accountId).FirstOrDefault();
-                if (dbContext.AccountDbs is null)
+                var db_acct = dbContext.AccountDbs.FirstOrDefault(x => x.Id == accountId);
+                if (db_acct is null)
                 {
                     throw new InvalidOperationException($"Account Does Not Exist");
 
@@ -66,7 +66,7 @@ namespace BankApp.Core.DataAccess
                     {
                         Id = db_acct.Id,
                         Email=db_acct.Email,
-                        Balance =db_acct.Balance,
+                        balance = db_acct.Balance,
                         Withdrawn = db_acct.Withdrawn,
                         PaidIn = db_acct.PaidIn
 
@@ -100,9 +100,9 @@ namespace BankApp.Core.DataAccess
                 else
                 {
                    
-                   dbacct.Balance = account.Balance;
+                   dbacct.Balance = account.balance;
                    dbacct.PaidIn = account.PaidIn;
-                   dbacct.Withdrawn = account.Withdrawn;
+                   dbacct.Withdrawn = account.withdrawn;
                    dbContext.SaveChanges();
                 }
                 

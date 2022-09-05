@@ -5,8 +5,8 @@ namespace BankApp.Core.Domain
     public class Account
     {
         public const decimal FraudulentActivityLimit = 100_000_000m;
-        public const decimal PayInLimit = 10000m;
-        public const decimal LowBalanceThreshold = 5000m;
+        public const decimal PayInLimit = 100000000m;
+        public const decimal LowBalanceThreshold = 500m;
         public const decimal BalanceLimitForWithdraw = 0m;
 
         public int Id { get; set; }
@@ -15,17 +15,48 @@ namespace BankApp.Core.Domain
         /// <summary>
         /// The current balance of the account
         /// </summary>
-        public decimal Balance { get; set; }
+        ///       
+        private decimal Balance;
+        public decimal balance
+        {
+            get { return Balance; }
+
+            set {
+                    Balance = value;
+            }
+        }
+
 
         /// <summary>
         /// Positive number that keeps track of total that has been withdrawn from account
         /// </summary>
-        public decimal Withdrawn { get; set; }
+        ///
+        public decimal Withdrawn;
+        public decimal withdrawn
+        {
+            get { return Withdrawn; }
+
+            set
+            {
+                Withdrawn = value;
+            }
+        }
 
         /// <summary>
         /// Positive number that keeps track of total that has been paid into account
         /// </summary>
-        public decimal PaidIn { get; set; }
+
+        public decimal PaidIn;
+        public decimal paidIn
+        {
+            get { return PaidIn; }
+
+            set
+            {
+                PaidIn = value;
+            }
+        }
+
 
         public virtual void Withdraw(decimal amount)
         {
@@ -34,7 +65,9 @@ namespace BankApp.Core.Domain
             //else if (amount <= BalanceLimitForWithdraw)
             //throw new InvalidOperationException("You cannot withdraw 0");
 
-            Balance = Balance - amount;
+            //Balance = Balance - amount;
+            Balance = balance - amount;
+
             Withdrawn = Withdrawn + amount;
         }
 
@@ -49,16 +82,19 @@ namespace BankApp.Core.Domain
 
         public virtual bool CanWithdraw(decimal amount)
         {
-            var newBalance = Balance - amount;
+            //var newBalance = Balance - amount;
+            var newBalance = balance - amount;
             return newBalance >= BalanceLimitForWithdraw;
         }
 
         public bool IsLowBalance()
         {
-            if (Balance <= LowBalanceThreshold)
+            //if (Balance <= LowBalanceThreshold)
+            if (balance <= LowBalanceThreshold)
+
                 throw new InvalidOperationException("Current Balance is Low");
 
-            return Balance < LowBalanceThreshold;
+            return Balance <= LowBalanceThreshold;
         }
 
         public bool FraudulentActivityDectected()
