@@ -37,15 +37,15 @@ namespace BankApp.Test.Features
             var mockNotificationService = new Mock<INotificationService>();
 
             var myMock = new Mock<IAccountRepository>();
-            const int intoAccountId = 1;
-            var account = new Account { Id = intoAccountId, Balance = 1000 };
+            const int fromAccountId = 1;
+            var account = new Account { Id = fromAccountId, Balance = 1000 };
 
-            myMock.Setup(x => x.GetAccountById(intoAccountId)).Returns(account);
+            myMock.Setup(x => x.GetAccountById(fromAccountId)).Returns(account);
 
             var withdraw = new WithdrawMoney(myMock.Object, mockNotificationService.Object);
 
             // act 
-            Assert.Throws<InvalidOperationException>(() => withdraw.Execute(intoAccountId, -1500));
+            Assert.Throws<InvalidOperationException>(() => withdraw.Execute(fromAccountId, -500));
 
             // assert
             Assert.That(account.Balance, Is.EqualTo(1000));
@@ -58,15 +58,15 @@ namespace BankApp.Test.Features
             var mockNotificationService = new Mock<INotificationService>();
 
             var myMock = new Mock<IAccountRepository>();
-            const int intoAccountId = 1;
-            var account = new Account { Id = intoAccountId, Balance = 1000 };
+            const int fromAccountId = 1;
+            var account = new Account { Id = fromAccountId, Balance = 1000 };
 
-            myMock.Setup(x => x.GetAccountById(intoAccountId)).Returns(account);
+            myMock.Setup(x => x.GetAccountById(fromAccountId)).Returns(account);
 
             var withdraw = new WithdrawMoney(myMock.Object, mockNotificationService.Object);
 
             // act 
-            Assert.Throws<InvalidOperationException>(() => withdraw.Execute(intoAccountId, 6000));
+            Assert.Throws<InvalidOperationException>(() => withdraw.Execute(fromAccountId, 1500));
 
             // assert
             Assert.That(account.Balance, Is.EqualTo(1000));
@@ -79,18 +79,18 @@ namespace BankApp.Test.Features
             var mockNotificationService = new Mock<INotificationService>();
 
             var myMock = new Mock<IAccountRepository>();
-            const int intoAccountId = 1;
-            var account = new Account { Id = intoAccountId, Balance = 1000 };
+            const int fromAccountId = 1;
+            var account = new Account { Id = fromAccountId, Balance = 0 };
 
-            myMock.Setup(x => x.GetAccountById(intoAccountId)).Returns(account);
+            myMock.Setup(x => x.GetAccountById(fromAccountId)).Returns(account);
 
             var withdraw = new WithdrawMoney(myMock.Object, mockNotificationService.Object);
 
             // act 
-            Assert.Throws<InvalidOperationException>(() => withdraw.Execute(intoAccountId, 0));
+            Assert.Throws<InvalidOperationException>(() => withdraw.Execute(fromAccountId, 1000));
 
             // assert
-            Assert.That(account.Balance, Is.EqualTo(1000));
+            Assert.That(account.Balance, Is.EqualTo(0));
         }
     }
 }
