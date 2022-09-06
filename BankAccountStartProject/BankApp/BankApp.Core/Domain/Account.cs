@@ -16,46 +16,21 @@ namespace BankApp.Core.Domain
         /// The current balance of the account
         /// </summary>
         ///       
-        private decimal Balance;
-        public decimal balance
-        {
-            get { return Balance; }
+        public decimal Balance { get; set; }
 
-            set {
-                    Balance = value;
-            }
-        }
 
 
         /// <summary>
         /// Positive number that keeps track of total that has been withdrawn from account
         /// </summary>
         ///
-        private decimal Withdrawn;
-        public decimal withdrawn
-        {
-            get { return Withdrawn; }
-
-            set
-            {
-                Withdrawn = value;
-            }
-        }
+        public decimal Withdrawn { get; set; }
 
         /// <summary>
         /// Positive number that keeps track of total that has been paid into account
         /// </summary>
 
-        private decimal PaidIn;
-        public decimal paidIn
-        {
-            get { return PaidIn; }
-
-            set
-            {
-                PaidIn = value;
-            }
-        }
+        public decimal PaidIn { get; set; }
 
 
         public virtual void Withdraw(decimal amount)
@@ -66,7 +41,7 @@ namespace BankApp.Core.Domain
             //throw new InvalidOperationException("You cannot withdraw 0");
 
             //Balance = Balance - amount;
-            Balance = balance - amount;
+            Balance = Balance - amount;
 
             Withdrawn = Withdrawn + amount;
         }
@@ -82,13 +57,13 @@ namespace BankApp.Core.Domain
 
         public virtual bool CanWithdraw(decimal amount)
         {
-            var newBalance = balance - amount;
+            var newBalance = Balance - amount;
             return newBalance >= BalanceLimitForWithdraw;
         }
 
         public bool IsLowBalance()
         {
-            if (balance <= LowBalanceThreshold)
+            if (Balance <= LowBalanceThreshold)
 
                 throw new InvalidOperationException("Current Balance is Low");
 

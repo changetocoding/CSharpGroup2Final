@@ -20,8 +20,8 @@ namespace BankApp.Test.Features
             var mockAccountRepo = new Mock<IAccountRepository>();
             const int fromAccountId = 1;
             const int intoAccountId = 2;
-            var account = new Account { Id = fromAccountId, balance = 1000 };
-            var account2 = new Account { Id = intoAccountId, balance = 0 };
+            var account = new Account { Id = fromAccountId, Balance = 1000 };
+            var account2 = new Account { Id = intoAccountId, Balance = 0 };
             mockAccountRepo.Setup(x => x.GetAccountById(fromAccountId)).Returns(account);
             mockAccountRepo.Setup(x => x.GetAccountById(intoAccountId)).Returns(account2);
 
@@ -32,8 +32,8 @@ namespace BankApp.Test.Features
             transfer.Execute(fromAccountId, intoAccountId, 200);
 
             // assert
-            Assert.That(account.balance, Is.EqualTo(800));
-            Assert.That(account2.balance, Is.EqualTo(200));
+            Assert.That(account.Balance, Is.EqualTo(800));
+            Assert.That(account2.Balance, Is.EqualTo(200));
 
         }
 
@@ -46,8 +46,8 @@ namespace BankApp.Test.Features
             var mockAccountRepo = new Mock<IAccountRepository>();
             const int fromAccountId = 1;
             const int intoAccountId = 2;
-            var account = new Account { Id = fromAccountId, balance = 1000 };
-            var account2 = new Account { Id = intoAccountId, balance = 0 };
+            var account = new Account { Id = fromAccountId, Balance = 1000 };
+            var account2 = new Account { Id = intoAccountId, Balance = 0 };
             mockAccountRepo.Setup(x => x.GetAccountById(fromAccountId)).Returns(account);
             mockAccountRepo.Setup(x => x.GetAccountById(intoAccountId)).Returns(account2);
 
@@ -59,8 +59,8 @@ namespace BankApp.Test.Features
 
 
             // assert
-            Assert.That(account.balance, Is.EqualTo(1000));
-            Assert.That(account2.balance, Is.EqualTo(0));
+            Assert.That(account.Balance, Is.EqualTo(1000));
+            Assert.That(account2.Balance, Is.EqualTo(0));
 
         }
         [Test]
@@ -72,8 +72,8 @@ namespace BankApp.Test.Features
             var mockAccountRepo = new Mock<IAccountRepository>();
             const int fromAccountId = 1;
             const int intoAccountId = 2;
-            var account = new Account { Id = fromAccountId, balance = 1000 };
-            var account2 = new Account { Id = intoAccountId, balance = 0 };
+            var account = new Account { Id = fromAccountId, Balance = 1000 };
+            var account2 = new Account { Id = intoAccountId, Balance = 0 };
             mockAccountRepo.Setup(x => x.GetAccountById(fromAccountId)).Returns(account);
             mockAccountRepo.Setup(x => x.GetAccountById(intoAccountId)).Returns(account2);
 
@@ -84,8 +84,8 @@ namespace BankApp.Test.Features
 
 
             // assert
-            Assert.That(account.balance, Is.EqualTo(1000));
-            Assert.That(account2.balance, Is.EqualTo(0));
+            Assert.That(account.Balance, Is.EqualTo(1000));
+            Assert.That(account2.Balance, Is.EqualTo(0));
         }
     }
 }

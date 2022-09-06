@@ -38,7 +38,7 @@ namespace BankApp.Core.Features
                 throw new InvalidOperationException("Invalid Payin Amount");
             }
 
-            else if(amount > into.balance)
+            else if(amount > into.Balance)
             {
                 throw new InvalidOperationException();
             }

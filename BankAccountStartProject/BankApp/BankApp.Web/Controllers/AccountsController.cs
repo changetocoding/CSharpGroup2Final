@@ -23,7 +23,7 @@ namespace BankApp.Web.Controllers
             var accounts = _accountRepository.GetAll();
             return accounts.Select(x => new AccountDetails()
             {
-                Balance = x.balance,
+                Balance = x.Balance,
                 Id = x.Id,
                 EmailAddress = x.Email
             });

@@ -46,7 +46,7 @@ namespace BankApp.Test.Features.David
         public void IfMoneyIsNegative_ThenThrowsException()
         {
             // act 
-            Assert.Throws<Exception>(() => _transfer.Execute(_fromAccount.Id, _toAccount.Id, -230));
+            Assert.Throws<InvalidOperationException>(() => _transfer.Execute(_fromAccount.Id, _toAccount.Id, -230));
 
             // assert
             Assert.That(_fromAccount.Balance, Is.EqualTo(10_000));
@@ -57,13 +57,16 @@ namespace BankApp.Test.Features.David
         public void IfMoneyIsZero_ThenThrowsException()
         {
             // act 
-            Assert.Throws<Exception>(() => _transfer.Execute(_fromAccount.Id, _toAccount.Id, 0));
+            Assert.Throws<InvalidOperationException>(() => _transfer.Execute(_fromAccount.Id, _toAccount.Id, 0));
 
             // assert
             Assert.That(_fromAccount.Balance, Is.EqualTo(10_000));
             Assert.That(_toAccount.Balance, Is.EqualTo(1_000));
         }
 
+        /// <summary>
+        /// Note: Test fails but they don't save so this works
+        /// </summary>
         [Test]
         public void CannotTransferAbovePayInLimit_40_000()
         {
@@ -88,6 +91,9 @@ namespace BankApp.Test.Features.David
             Assert.That(account1.Balance, Is.EqualTo(50_000));
         }
 
+        /// <summary>
+        /// Note: Test fails but they don't save so this works
+        /// </summary>
         [Test]
         public void CanTransferBelowPayInLimit_40_000()
         {

@@ -66,9 +66,9 @@ namespace BankApp.Core.DataAccess
                     {
                         Id = db_acct.Id,
                         Email=db_acct.Email,
-                        balance = db_acct.Balance,
-                        withdrawn = db_acct.Withdrawn,
-                        paidIn = db_acct.PaidIn
+                        Balance = db_acct.Balance,
+                        Withdrawn = db_acct.Withdrawn,
+                        PaidIn = db_acct.PaidIn
 
                         
                     };
@@ -83,7 +83,7 @@ namespace BankApp.Core.DataAccess
         {
             using (var dbContext = new BankContext())
             {
-                return dbContext.AccountDbs.Select(x => new Account() { Id = x.Id, Email = x.Email, balance = x.Balance }).ToList();
+                return dbContext.AccountDbs.Select(x => new Account() { Id = x.Id, Email = x.Email, Balance = x.Balance }).ToList();
             }
         }
 
@@ -100,9 +100,9 @@ namespace BankApp.Core.DataAccess
                 else
                 {
                    
-                   dbacct.Balance = account.balance;
-                   dbacct.PaidIn = account.paidIn;
-                   dbacct.Withdrawn = account.withdrawn;
+                   dbacct.Balance = account.Balance;
+                   dbacct.PaidIn = account.PaidIn;
+                   dbacct.Withdrawn = account.Withdrawn;
                    dbContext.SaveChanges();
                 }
                 

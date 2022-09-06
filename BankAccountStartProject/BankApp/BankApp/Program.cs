@@ -109,7 +109,7 @@ namespace MoneyBox.ConsoleApp
                 var accountId = Convert.ToInt32(accountIdStr);
 
                 var account = repo.GetAccountById(accountId);
-                Console.WriteLine($"Your balance is: {account.balance}");
+                Console.WriteLine($"Your balance is: {account.Balance}");
             }
             catch (AccountNotFoundException ex)
             {
