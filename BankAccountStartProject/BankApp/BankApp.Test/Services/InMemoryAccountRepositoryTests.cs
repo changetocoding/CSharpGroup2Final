@@ -7,6 +7,7 @@ using BankApp.Core.DataAccess;
 using BankApp.Core.Domain;
 using NUnit.Framework;
 
+
 namespace BankApp.Test.Services
 {
     // Delete these in task 2.2
@@ -16,22 +17,22 @@ namespace BankApp.Test.Services
         public void CanAddAnNewAccount()
         {
             // setup
-            var repo = new Core.DataAccess.BankApp();
+            var repo = new Core.DataAccess.InMemoryAccountRepository();
 
             // Act
-            var accountId = repo.CreateAccount("test@test.co");
+            var accountId = repo.CreateAccount("test@test.com");
 
             // Assert
             var actual = repo.GetAccountById(accountId);
-            Assert.That(actual.Email, Is.EqualTo("test@test.co"));
+            Assert.That(actual.Email, Is.EqualTo("test@test.com"));
         }
 
         [Test]
         public void CanSaveAnAccountInTheRepo()
         {
             // setup
-            var repo = new Core.DataAccess.BankApp();
-            var account = new Account { Id = 10, Balance = 100 };
+            var repo = new Core.DataAccess.InMemoryAccountRepository();
+            var account = new Account { Id = 10, balance = 100 };
 
             // Act
             repo.Update(account);
@@ -44,7 +45,7 @@ namespace BankApp.Test.Services
         public void WhenAccountDoesNotExist_CannotFetchItFromTheRepo()
         {
             // setup
-            var repo = new Core.DataAccess.BankApp();
+            var repo = new Core.DataAccess.InMemoryAccountRepository();
 
             // Act & Assert
             Assert.Throws<AccountNotFoundException>(() => repo.GetAccountById(0));

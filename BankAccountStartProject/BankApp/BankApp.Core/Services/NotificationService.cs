@@ -15,7 +15,7 @@ namespace BankApp.Core.Services
         {
             var notification = new Notification()
             {
-                Message = $"{account.Email}: We have detected fraudlent activity on your account with id '{account.Id}'.",
+                Message = $"{account.Email}: We have detected fraudulent activity on your account with id '{account.Id}'.",
                 AccountId = account.Id,
                 Email = account.Email,
             };

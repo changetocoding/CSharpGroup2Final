@@ -8,6 +8,7 @@ namespace BankApp.Core.Features
     {
         private IAccountRepository accountRepository;
         private INotificationService notificationService;
+        
 
         public WithdrawMoney(IAccountRepository accountRepository, INotificationService notificationService)
         {
@@ -22,25 +23,34 @@ namespace BankApp.Core.Features
             if (from.FraudulentActivityDectected())
             {
                 notificationService.NotifyFraudlentActivity(from);
-                throw new Exception($"Account limit reached you cannot withdraw at this time");
+                throw new InvalidOperationException($"Account limit reached you cannot withdraw at this time");
             }
             else if (from.CanWithdraw(amount) && amount > 0)
             {
                 from.Withdraw(amount);
                 accountRepository.Update(from);
+                if (from.IsLowBalance())
+                { 
+                    notificationService.NotifyFundsLow(from);
+                }
 
             }
-            else if (from.IsLowBalance())
-            {  //lowthreshold notofication for low balance should show
-                notificationService.NotifyFundsLow(from);
+            else if(from.balance < amount)
+            {
+                throw new InvalidOperationException();
+            }
+            
+            else if (amount < 0)
+            {
+                throw new InvalidOperationException();
             }
            
             else
             {
                 throw new Exception();
             }
-            
-           
+
+
         }
     }
 }

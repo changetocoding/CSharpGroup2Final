@@ -4,19 +4,19 @@ using System.Text.RegularExpressions;
 namespace BankApp.Core.DataAccess
 {
     // Do not write tests for this
-    public class BankApp : IAccountRepository
+    public class InMemoryAccountRepository : IAccountRepository
     {
         private readonly Dictionary<int, Account> _accounts;
         private int _lastId = 1;
 
-        public BankApp()
+        public InMemoryAccountRepository()
         {
             _accounts = new Dictionary<int, Account>();
         }
 
         public bool ValidatingEmailAddress(string emailAddress)
         {
-            string strRegex = @"^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}" +
+        string strRegex = @"^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}" +
          @"\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\" +
          @".)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$";
             Regex re = new Regex(strRegex);
@@ -35,17 +35,16 @@ namespace BankApp.Core.DataAccess
                 _accounts.Add(account.Id, account);
 
                 return account.Id;
-            }
-            
+            }  
             else
             {
                 throw new Exception($"Email not valid");
-            }
+            }       
         }
 
         public Account GetAccountById(int accountId)
         {
-            if (!_accounts.ContainsKey(accountId))
+            if(!_accounts.ContainsKey(accountId))
             {
                 throw new AccountNotFoundException($"Account with id {accountId} was not found");
             }

@@ -15,7 +15,7 @@ namespace MoneyBox.ConsoleApp
         {
             Console.WriteLine("Hello, World!");
 
-            var repoService = new IBankAccount();
+            var repoService = new DbBankAccount();
             var notificationService = new NotificationService();
 
 
@@ -109,7 +109,7 @@ namespace MoneyBox.ConsoleApp
                 var accountId = Convert.ToInt32(accountIdStr);
 
                 var account = repo.GetAccountById(accountId);
-                Console.WriteLine($"Your balance is: {account.Balance}");
+                Console.WriteLine($"Your balance is: {account.balance}");
             }
             catch (AccountNotFoundException ex)
             {

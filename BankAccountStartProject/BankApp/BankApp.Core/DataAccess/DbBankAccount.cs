@@ -10,7 +10,7 @@ using BankApp;
 
 namespace BankApp.Core.DataAccess
 {
-    public class IBankAccount : IAccountRepository
+    public class DbBankAccount : IAccountRepository
     {
         public bool ValidatingEmailAddress(string emailAddress)
         {
@@ -29,10 +29,10 @@ namespace BankApp.Core.DataAccess
             {
                 if (ValidatingEmailAddress(emailAddress) is true)
                 {
-                    var check = dbContext.AccountDbs.Where(x => x.Email == emailAddress).FirstOrDefault();
-                    if (dbContext.AccountDbs.Contains(check))
+                    var check = dbContext.AccountDbs.FirstOrDefault(x => x.Email == emailAddress);
+                    if (check is null)
                     {
-                        throw new Exception($"Account Already Exist");
+                        throw new InvalidOperationException($"Account Already Exist");
 
                     }
                     else
@@ -45,7 +45,7 @@ namespace BankApp.Core.DataAccess
                 }
                 else
                 {
-                    throw new Exception();
+                    throw new InvalidOperationException();
                 }
             }
         }
@@ -54,18 +54,26 @@ namespace BankApp.Core.DataAccess
         {
             using (var dbContext = new BankContext())
             {
-                var check = dbContext.AccountDbs.Where(x => x.Id == accountId).FirstOrDefault();
-                if (dbContext.AccountDbs.Contains(check))
+                var db_acct = dbContext.AccountDbs.FirstOrDefault(x => x.Id == accountId);
+                if (db_acct is null)
                 {
-                    var account = new Account() { Id = accountId};
-                    return account;
+                    throw new InvalidOperationException($"Account Does Not Exist");
+
                 }
                 else
                 {
-                    throw new Exception($"Account Does Not Exist");
+                    var account = new Account()
+                    {
+                        Id = db_acct.Id,
+                        Email=db_acct.Email,
+                        balance = db_acct.Balance,
+                        Withdrawn = db_acct.Withdrawn,
+                        PaidIn = db_acct.PaidIn
 
+                        
+                    };
+                    return account;
                 }
-
             }
 
             throw new NotImplementedException();
@@ -75,8 +83,7 @@ namespace BankApp.Core.DataAccess
         {
             using (var dbContext = new BankContext())
             {
-                return (IEnumerable<Account>) dbContext.AccountDbs.ToList();
-
+                return dbContext.AccountDbs.Select(x => new Account() { Id = x.Id }).ToList();
             }
         }
 
@@ -84,16 +91,23 @@ namespace BankApp.Core.DataAccess
         {
             using (var dbContext = new BankContext())
             {
-                var acct = dbContext.AccountDbs.Where(x => x.Id == account.Id).SingleOrDefault();
-                if (acct is AccountDb)
+                var dbacct = dbContext.AccountDbs.Where(x => x.Id == account.Id).SingleOrDefault();
+                if (dbacct is null)
                 {
-                    acct.PaidIn =+  account.Balance;
-                    
+                    throw new InvalidOperationException($"Id Not Found");
+                }
+
+                else
+                {
+                   
+                   dbacct.Balance = account.balance;
+                   dbacct.PaidIn = account.PaidIn;
+                   dbacct.Withdrawn = account.withdrawn;
+                   dbContext.SaveChanges();
                 }
                 
-                dbContext.SaveChanges();
-                                
-            }
+
+            }   
 
         }
     }

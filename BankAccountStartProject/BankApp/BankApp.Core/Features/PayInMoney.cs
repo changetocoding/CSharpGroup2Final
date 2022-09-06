@@ -33,7 +33,8 @@ namespace BankApp.Core.Features
             {
                 throw new InvalidOperationException();
             }
-            else if(amount > into.Balance)
+
+            else if(amount > into.balance)
             {
                 throw new InvalidOperationException();
             }
