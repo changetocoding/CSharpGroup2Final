@@ -18,16 +18,16 @@ namespace BankApp.Test.Features
 
             var mockAccountRepo = new Mock<IAccountRepository>();
             const int intoAccountId = 1;
-            var account = new Account { Id = intoAccountId, balance = 700 };
+            var account = new Account { Id = intoAccountId, balance = 2000 };
             mockAccountRepo.Setup(x => x.GetAccountById(intoAccountId)).Returns(account);
 
             var withdraw = new WithdrawMoney(mockAccountRepo.Object, mockNotificationService.Object);
 
             // act 
-            withdraw.Execute(intoAccountId, 200);
+            withdraw.Execute(intoAccountId, 1000);
 
             // assert
-            Assert.That(account.balance, Is.EqualTo(500));
+            Assert.That(account.balance, Is.EqualTo(1000));
         }
 
         [Test]

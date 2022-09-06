@@ -5,7 +5,7 @@ namespace BankApp.Core.Domain
     public class Account
     {
         public const decimal FraudulentActivityLimit = 100_000_000m;
-        public const decimal PayInLimit = 100000000m;
+        public const decimal PayInLimit = 40000m;
         public const decimal LowBalanceThreshold = 500m;
         public const decimal BalanceLimitForWithdraw = 0m;
 
@@ -31,7 +31,7 @@ namespace BankApp.Core.Domain
         /// Positive number that keeps track of total that has been withdrawn from account
         /// </summary>
         ///
-        public decimal Withdrawn;
+        private decimal Withdrawn;
         public decimal withdrawn
         {
             get { return Withdrawn; }
@@ -46,7 +46,7 @@ namespace BankApp.Core.Domain
         /// Positive number that keeps track of total that has been paid into account
         /// </summary>
 
-        public decimal PaidIn;
+        private decimal PaidIn;
         public decimal paidIn
         {
             get { return PaidIn; }
@@ -82,14 +82,12 @@ namespace BankApp.Core.Domain
 
         public virtual bool CanWithdraw(decimal amount)
         {
-            //var newBalance = Balance - amount;
             var newBalance = balance - amount;
             return newBalance >= BalanceLimitForWithdraw;
         }
 
         public bool IsLowBalance()
         {
-            //if (Balance <= LowBalanceThreshold)
             if (balance <= LowBalanceThreshold)
 
                 throw new InvalidOperationException("Current Balance is Low");

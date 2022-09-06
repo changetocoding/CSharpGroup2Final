@@ -1,4 +1,5 @@
-﻿using BankApp.Core.Domain;
+﻿using BankApp.Core.DataAccess;
+using BankApp.Core.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,56 +8,24 @@ using System.Threading.Tasks;
 
 namespace BankApp.Core.Services
 {
-    public class Notifications :INotificationService
+    public class Notifications 
     {
-        //TextWriter rootPath = new StreamWriter(@"C:\Users\WINDOWS 10 PRO\source\repos\BankAccountStartProject\BankApp\Notifications.txt", true);
+        private string path = @"C:\Users\WINDOWS 10 PRO\source\repos\BankAccountStartProject\BankApp\Notifications.txt";
 
-        public void NotifyFraudlentActivity(Account account)
+        public void WriteNotification(string message,string email,int id)
         {
-            using (TextWriter rootPath = new StreamWriter(@"C:\Users\WINDOWS 10 PRO\source\repos\BankAccountStartProject\BankApp\Notifications.txt",true))
-            {
-                var notify = new Notification()
-                {
-                    Message = $"{account.Email}: An unusual transaction have been dictated in your account",
-                    AccountId = account.Id,
-                    Email =account.Email,
-                };
-                rootPath.Write(notify.Message, notify.AccountId, notify.Email);
-            }
+            File.AppendAllText(path, $"{id}, {email}, {message}" + Environment.NewLine);
         }
-
-        public void NotifyFundsLow(Account account)
+        public void GetAll(Notification notification)
         {
-            using (TextWriter rootPath = new StreamWriter(@"C:\Users\WINDOWS 10 PRO\source\repos\BankAccountStartProject\BankApp\Notifications.txt", true))
-            {
-                var notify = new Notification()
-                {
-                    Message = $"{account.Email}: Account Balance is Low",
-                    AccountId = account.Id,
-                    Email = account.Email,
-                };
-                rootPath.Write(notify.Message, notify.AccountId, notify.Email);
-            }
-        }
+            var notify = new Notification();
 
-        public IEnumerable<Notification> GetNotificationsForEmail(string emailAddress)
-        {
+            var allnot = File.ReadAllLines(path).ToList();
 
-
-            var Path = @"C:\Users\WINDOWS 10 PRO\source\repos\BankAccountStartProject\BankApp\Notifications.txt/";
-
-            throw new NotImplementedException();
 
         }
 
-        public IEnumerable<Notification> GetAllNotifications()
-        {
-            using (TextWriter rootPath = new StreamWriter(@"C:\Users\WINDOWS 10 PRO\source\repos\BankAccountStartProject\BankApp\Notifications.txt", true))
-            {
-                var path = @"C:\Users\WINDOWS 10 PRO\source\repos\BankAccountStartProject\BankApp\Notifications.txt";
-            }
 
-            return GetAllNotifications();
-        }
+
     }
 }

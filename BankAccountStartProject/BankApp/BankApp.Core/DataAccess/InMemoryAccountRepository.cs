@@ -38,7 +38,7 @@ namespace BankApp.Core.DataAccess
             }  
             else
             {
-                throw new Exception($"Email not valid");
+                throw new Exception($"Email is not valid");
             }       
         }
 
