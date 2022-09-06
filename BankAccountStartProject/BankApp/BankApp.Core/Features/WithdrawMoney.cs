@@ -29,29 +29,26 @@ namespace BankApp.Core.Features
             {
                 from.Withdraw(amount);
                 accountRepository.Update(from);
+                if (from.IsLowBalance())
+                { 
+                    notificationService.NotifyFundsLow(from);
+                }
 
             }
-            else if(from.Balance < amount)
+            else if(from.balance < amount)
             {
                 throw new InvalidOperationException();
             }
-            //else if (from.Balance == 0 )
-            //{
-            //    throw new InvalidOperationException();
-            //}
+            
             else if (amount < 0)
             {
                 throw new InvalidOperationException();
             }
-            //else if (from.IsLowBalance())
-            //{  //lowthreshold notofication for low balance should show
-            //    notificationService.NotifyFundsLow(from);
-            //}
-
-            //else
-            //{
-            //    throw new Exception();
-            //}
+           
+            else
+            {
+                throw new Exception();
+            }
 
 
         }

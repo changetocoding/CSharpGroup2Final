@@ -1,4 +1,5 @@
 using BankApp.Core.DataAccess;
+using BankApp.Core.Features;
 using BankApp.Core.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,10 +19,9 @@ builder.Services.AddScoped<INotificationService, NotificationService>();
 
 // TODO: In phase 2 you ill need to change this to your new IAccountRepository implementation
 builder.Services.AddScoped<IAccountRepository, DbBankAccount>();
-
-
-
-
+builder.Services.AddScoped<PayInMoney>();
+builder.Services.AddScoped<WithdrawMoney>();
+builder.Services.AddScoped<TransferMoney>();
 
 var app = builder.Build();
 

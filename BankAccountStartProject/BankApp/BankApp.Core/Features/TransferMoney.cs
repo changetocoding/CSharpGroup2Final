@@ -23,14 +23,7 @@ namespace BankApp.Core.Features
 
             // ToDo
 
-            if (from.FraudulentActivityDectected()/*&& to.FraudulentActivityDectected()*/)
-            {
-                _notificationService.NotifyFraudlentActivity(from);
-                throw new InvalidOperationException();
-                //_notificationService.NotifyFraudlentActivity(to);
-
-                throw new Exception($"Account limit reached you cannot payin at this time");
-            }
+           
 
             if (from.CanWithdraw(amount) && amount > 0 )
             {
@@ -39,12 +32,23 @@ namespace BankApp.Core.Features
                 to.PayIn(amount);
                 _accountRepository.Update(to);
                 _accountRepository.Update(from);
+                if (from.IsLowBalance())
+                {
+                    _notificationService.NotifyFundsLow(from);
+                }
+                else if (from.FraudulentActivityDectected())
+                {
+                    _notificationService.NotifyFraudlentActivity(from);
+                    throw new InvalidOperationException($"Fraudulent Activity dictated,Account Temporarily Suspended");
+                    
+                }
+
             }
-            else if (amount > from.Balance)
+            else if (amount > from.balance)
             {
                 throw new InvalidOperationException($"Cannot transfer more than available balance");
             }
-
+          
             else
             {
                 throw new Exception();

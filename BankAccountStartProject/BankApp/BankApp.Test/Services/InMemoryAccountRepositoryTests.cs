@@ -32,7 +32,7 @@ namespace BankApp.Test.Services
         {
             // setup
             var repo = new Core.DataAccess.InMemoryAccountRepository();
-            var account = new Account { Id = 10, Balance = 100 };
+            var account = new Account { Id = 10, balance = 100 };
 
             // Act
             repo.Update(account);
