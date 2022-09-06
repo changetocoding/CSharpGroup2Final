@@ -63,5 +63,29 @@ namespace BankApp.Test.Features
             Assert.That(account2.balance, Is.EqualTo(0));
 
         }
+        [Test]
+        public void IfTransferAmountIsNegative_ThenThrowsException()
+        {
+            // setup
+            var mockNotificationService = new Mock<INotificationService>();
+
+            var mockAccountRepo = new Mock<IAccountRepository>();
+            const int fromAccountId = 1;
+            const int intoAccountId = 2;
+            var account = new Account { Id = fromAccountId, balance = 1000 };
+            var account2 = new Account { Id = intoAccountId, balance = 0 };
+            mockAccountRepo.Setup(x => x.GetAccountById(fromAccountId)).Returns(account);
+            mockAccountRepo.Setup(x => x.GetAccountById(intoAccountId)).Returns(account2);
+
+            var transfer = new TransferMoney(mockAccountRepo.Object, mockNotificationService.Object);
+
+            // act 
+            Assert.Throws<InvalidOperationException>(() => transfer.Execute(fromAccountId, intoAccountId, -5000));
+
+
+            // assert
+            Assert.That(account.balance, Is.EqualTo(1000));
+            Assert.That(account2.balance, Is.EqualTo(0));
+        }
     }
 }

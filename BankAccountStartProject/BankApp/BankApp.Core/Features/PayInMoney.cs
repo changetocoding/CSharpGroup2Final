@@ -28,10 +28,14 @@ namespace BankApp.Core.Features
             {
                 into.PayIn(amount);
                 _accountRepository.Update(into);
+                if (into.IsLowBalance())
+                {
+                    _notificationService.NotifyFundsLow(into);
+                }
             }
             else if(amount <= 0)
             {
-                throw new InvalidOperationException();
+                throw new InvalidOperationException("Invalid Payin Amount");
             }
 
             else if(amount > into.balance)

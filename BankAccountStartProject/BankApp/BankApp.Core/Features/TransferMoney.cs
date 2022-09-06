@@ -22,10 +22,7 @@ namespace BankApp.Core.Features
             var to = _accountRepository.GetAccountById(toAccountId);
 
             // ToDo
-
-           
-
-            if (from.CanWithdraw(amount) && amount > 0 )
+           if (from.CanWithdraw(amount) && amount > 0 )
             {
 
                 from.Withdraw(amount);
@@ -39,19 +36,19 @@ namespace BankApp.Core.Features
                 else if (from.FraudulentActivityDectected())
                 {
                     _notificationService.NotifyFraudlentActivity(from);
-                    throw new InvalidOperationException($"Fraudulent Activity dictated,Account Temporarily Suspended");
+                    throw new InvalidOperationException($"Fraudulent Activity dictated, Account is Temporarily Suspended");
                     
                 }
 
             }
             else if (amount > from.balance)
             {
-                throw new InvalidOperationException($"Cannot transfer more than available balance");
+                throw new InvalidOperationException($"You cannot transfer more than available balance");
             }
           
             else
             {
-                throw new Exception();
+                throw new InvalidOperationException("Invalid Operation");
             }
         }
     }

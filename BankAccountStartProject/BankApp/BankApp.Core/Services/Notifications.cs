@@ -9,11 +9,12 @@ namespace BankApp.Core.Services
 {
     public class Notifications :INotificationService
     {
-        //TextWriter rootPath = new StreamWriter(@"C:\Users\WINDOWS 10 PRO\source\repos\BankAccountStartProject\BankApp\Notifications.txt", true);
+         string rootPath = @"C:\Users\WINDOWS 10 PRO\source\repos\BankAccountStartProject\BankApp\Notifications.txt";
 
         public void NotifyFraudlentActivity(Account account)
         {
-            using (TextWriter rootPath = new StreamWriter(@"C:\Users\WINDOWS 10 PRO\source\repos\BankAccountStartProject\BankApp\Notifications.txt",true))
+            //using FileStream file = File.OpenWrite(rootPath);
+            using (TextWriter rootPath = new StreamWriter(@"C:\Users\WINDOWS10PRO\source\repos\BankAccountStartProject\BankApp\Notifications.txt", true))
             {
                 var notify = new Notification()
                 {
@@ -21,7 +22,8 @@ namespace BankApp.Core.Services
                     AccountId = account.Id,
                     Email =account.Email,
                 };
-                rootPath.Write(notify.Message, notify.AccountId, notify.Email);
+                rootPath.WriteLine(notify.Message, notify.AccountId, notify.Email);
+                rootPath.Close();
             }
         }
 
@@ -35,7 +37,8 @@ namespace BankApp.Core.Services
                     AccountId = account.Id,
                     Email = account.Email,
                 };
-                rootPath.Write(notify.Message, notify.AccountId, notify.Email);
+                rootPath.WriteLine(notify.Message, notify.AccountId, notify.Email);
+                rootPath.Close();
             }
         }
 
@@ -43,7 +46,7 @@ namespace BankApp.Core.Services
         {
 
 
-            var Path = @"C:\Users\WINDOWS 10 PRO\source\repos\BankAccountStartProject\BankApp\Notifications.txt/";
+            var Path = @"C:\Users\WINDOWS 10 PRO\source\repos\BankAccountStartProject\BankApp\Notifications.txt";
 
             throw new NotImplementedException();
 

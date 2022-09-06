@@ -29,10 +29,10 @@ namespace BankApp.Core.DataAccess
             {
                 if (ValidatingEmailAddress(emailAddress) is true)
                 {
-                    var check = dbContext.AccountDbs.FirstOrDefault(x => x.Email == emailAddress);
-                    if (check is null)
+                    var acctEmail = dbContext.AccountDbs.FirstOrDefault(x => x.Email == emailAddress);
+                    if (acctEmail is null)
                     {
-                        throw new InvalidOperationException($"Account Already Exist");
+                        throw new InvalidOperationException($"This Account Already Exist");
 
                     }
                     else
@@ -111,9 +111,4 @@ namespace BankApp.Core.DataAccess
 
         }
     }
-
-        //int IAccountRepository.CreateAccount(string emailAddress)
-        //{
-        //    throw new NotImplementedException();
-        //}
 }
