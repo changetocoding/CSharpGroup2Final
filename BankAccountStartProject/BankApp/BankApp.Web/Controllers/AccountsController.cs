@@ -33,8 +33,8 @@ namespace BankApp.Web.Controllers
         public int CreateAccount(string email)
         {
             
-            var users = _accountRepository.CreateAccount(email);
-            return users;  
+            var user = _accountRepository.CreateAccount(email);
+            return user;  
         }
 
       

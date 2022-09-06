@@ -43,7 +43,7 @@ namespace BankApp.Core.Features
             }
             else if (amount > from.balance)
             {
-                throw new InvalidOperationException($"You cannot transfer more than available balance");
+                throw new InvalidOperationException();
             }
           
             else

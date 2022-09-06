@@ -56,7 +56,7 @@ namespace BankApp.Test.Features
 
             // act 
             Assert.Throws<InvalidOperationException>(() => transfer.Execute(fromAccountId, intoAccountId, 2000));
-            
+
 
             // assert
             Assert.That(account.balance, Is.EqualTo(1000));

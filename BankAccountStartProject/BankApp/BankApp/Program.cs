@@ -13,7 +13,7 @@ namespace MoneyBox.ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("\nWelcome To Bank XYZ\n");
 
             var repoService = new DbBankAccount();
             var notificationService = new NotificationService();
@@ -166,6 +166,8 @@ namespace MoneyBox.ConsoleApp
                 Console.WriteLine("Exception: " + e);
             }
         }
+
+       
 
         private static void Notifications(INotificationService notify)
         {

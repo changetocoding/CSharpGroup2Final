@@ -32,15 +32,15 @@ namespace BankApp.Core.DataAccess
                     var acctEmail = dbContext.AccountDbs.FirstOrDefault(x => x.Email == emailAddress);
                     if (acctEmail is null)
                     {
-                        throw new InvalidOperationException($"This Account Already Exist");
+                        var account = new AccountDb() { Email = emailAddress };
+                        dbContext.AccountDbs.Add(account);
+                        dbContext.SaveChanges();
+                        return account.Id;
 
                     }
                     else
                     {
-                        var account = new AccountDb(){ Email = emailAddress };
-                        dbContext.AccountDbs.Add(account);
-                        dbContext.SaveChanges();
-                        return account.Id;
+                        throw new InvalidOperationException($"This Account Already Exist");
                     }
                 }
                 else
@@ -67,8 +67,8 @@ namespace BankApp.Core.DataAccess
                         Id = db_acct.Id,
                         Email=db_acct.Email,
                         balance = db_acct.Balance,
-                        Withdrawn = db_acct.Withdrawn,
-                        PaidIn = db_acct.PaidIn
+                        withdrawn = db_acct.Withdrawn,
+                        paidIn = db_acct.PaidIn
 
                         
                     };
@@ -83,7 +83,7 @@ namespace BankApp.Core.DataAccess
         {
             using (var dbContext = new BankContext())
             {
-                return dbContext.AccountDbs.Select(x => new Account() { Id = x.Id }).ToList();
+                return dbContext.AccountDbs.Select(x => new Account() { Id = x.Id, Email = x.Email, balance = x.Balance }).ToList();
             }
         }
 
@@ -101,7 +101,7 @@ namespace BankApp.Core.DataAccess
                 {
                    
                    dbacct.Balance = account.balance;
-                   dbacct.PaidIn = account.PaidIn;
+                   dbacct.PaidIn = account.paidIn;
                    dbacct.Withdrawn = account.withdrawn;
                    dbContext.SaveChanges();
                 }

@@ -21,7 +21,7 @@ namespace BankApp.Test.Services
             Assert.That(service.GetAllNotifications().ToList(), Has.Count.EqualTo(1));
             Assert.That(service.GetNotificationsForEmail("test.co").ToList(), Has.Count.EqualTo(1));
             Assert.That(service.GetNotificationsForEmail("test.co").First().Message, 
-                Is.EqualTo("test.co: We have detected fraudlent activity on your account with id '1'"));
+                Is.EqualTo("test.co: We have detected fraudlent activity on your account with id '1'."));
         }
 
         [Test]

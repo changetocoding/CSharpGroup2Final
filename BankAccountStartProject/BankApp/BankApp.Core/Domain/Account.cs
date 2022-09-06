@@ -17,7 +17,7 @@ namespace BankApp.Core.Domain
         /// </summary>
         ///       
         private decimal Balance;
-        private decimal balance
+        public decimal balance
         {
             get { return Balance; }
 
@@ -32,7 +32,7 @@ namespace BankApp.Core.Domain
         /// </summary>
         ///
         private decimal Withdrawn;
-        private decimal withdrawn
+        public decimal withdrawn
         {
             get { return Withdrawn; }
 
@@ -47,7 +47,7 @@ namespace BankApp.Core.Domain
         /// </summary>
 
         private decimal PaidIn;
-        private decimal paidIn
+        public decimal paidIn
         {
             get { return PaidIn; }
 
