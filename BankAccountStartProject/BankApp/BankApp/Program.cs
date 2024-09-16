@@ -2,6 +2,9 @@
 using BankApp.Core.DataAccess;
 using BankApp.Core.Features;
 using BankApp.Core.Services;
+using BankApp;
+using  Bank.Data.Scaffolded;
+
 
 
 namespace MoneyBox.ConsoleApp
@@ -10,9 +13,9 @@ namespace MoneyBox.ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("\nWelcome To Bank XYZ\n");
 
-            var repoService = new InMemoryAccountRepository();
+            var repoService = new DbBankAccount();
             var notificationService = new NotificationService();
 
 
@@ -106,7 +109,7 @@ namespace MoneyBox.ConsoleApp
                 var accountId = Convert.ToInt32(accountIdStr);
 
                 var account = repo.GetAccountById(accountId);
-                Console.WriteLine($"Your balance is: {account.Balance}");
+                Console.WriteLine($"Your balance is: {account.balance}");
             }
             catch (AccountNotFoundException ex)
             {
@@ -143,18 +146,18 @@ namespace MoneyBox.ConsoleApp
             try
             {
                 Console.WriteLine("Enter your account Id to transfer from");
-                var accountIdStr = Console.ReadLine();
-                var accountId = Convert.ToInt32(accountIdStr);
+                var FromaccountIdStr = Console.ReadLine();
+                var FromaccountId = Convert.ToInt32(FromaccountIdStr);
 
                 Console.WriteLine("Enter your account Id to transfer to");
                 var accountToIdStr = Console.ReadLine();
-                var accountIdTo = Convert.ToInt32(accountIdStr);
+                var accountIdTo = Convert.ToInt32(accountToIdStr);
 
                 Console.WriteLine("Enter amount to transfer");
                 var amountStr = Console.ReadLine();
                 var amount = Convert.ToDecimal(amountStr);
 
-                transfer.Execute(accountId, accountIdTo, amount);
+                transfer.Execute(FromaccountId, accountIdTo, amount);
                 
                 Console.WriteLine("Tranfer Successful");
             }
@@ -163,6 +166,8 @@ namespace MoneyBox.ConsoleApp
                 Console.WriteLine("Exception: " + e);
             }
         }
+
+       
 
         private static void Notifications(INotificationService notify)
         {

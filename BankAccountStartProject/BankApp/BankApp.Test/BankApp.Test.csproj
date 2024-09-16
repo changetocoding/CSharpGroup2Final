@@ -18,6 +18,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BankApp.Core\BankApp.Core.csproj" />
+    <ProjectReference Include="..\BankApp\BankApp.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="BankApp\Core\DataAccess\" />
   </ItemGroup>
 
 </Project>

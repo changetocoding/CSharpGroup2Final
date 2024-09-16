@@ -23,10 +23,18 @@ namespace BankApp.Web.Controllers
             var accounts = _accountRepository.GetAll();
             return accounts.Select(x => new AccountDetails()
             {
-                Balance = x.Balance,
+                Balance = x.balance,
                 Id = x.Id,
                 EmailAddress = x.Email
             });
+        }
+        [HttpPost]
+        [Route("CreateAllAccount")]
+        public int CreateAccount(string email)
+        {
+            
+            var user = _accountRepository.CreateAccount(email);
+            return user;  
         }
 
       

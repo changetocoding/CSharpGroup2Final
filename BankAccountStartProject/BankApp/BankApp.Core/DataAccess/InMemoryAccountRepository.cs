@@ -16,7 +16,7 @@ namespace BankApp.Core.DataAccess
 
         public bool ValidatingEmailAddress(string emailAddress)
         {
-            string strRegex = @"^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}" +
+        string strRegex = @"^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}" +
          @"\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\" +
          @".)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$";
             Regex re = new Regex(strRegex);
@@ -35,20 +35,16 @@ namespace BankApp.Core.DataAccess
                 _accounts.Add(account.Id, account);
 
                 return account.Id;
-            }
-            else if (emailAddress == emailAddress)
-            {
-                throw new Exception($"Email already exist");
-            }
+            }  
             else
             {
-                throw new Exception($"Email not valid");
-            }
+                throw new Exception($"Email is not valid");
+            }       
         }
 
         public Account GetAccountById(int accountId)
         {
-            if (!_accounts.ContainsKey(accountId))
+            if(!_accounts.ContainsKey(accountId))
             {
                 throw new AccountNotFoundException($"Account with id {accountId} was not found");
             }

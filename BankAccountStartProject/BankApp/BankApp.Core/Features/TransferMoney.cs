@@ -21,25 +21,35 @@ namespace BankApp.Core.Features
             var from = _accountRepository.GetAccountById(fromAccountId);
             var to = _accountRepository.GetAccountById(toAccountId);
 
-            if (from.CanWithdraw(amount) )
+            // ToDo
+           if (from.CanWithdraw(amount) && amount > 0 )
             {
 
                 from.Withdraw(amount);
                 to.PayIn(amount);
-            }
+                _accountRepository.Update(to);
+                _accountRepository.Update(from);
+                if (from.IsLowBalance())
+                {
+                    _notificationService.NotifyFundsLow(from);
+                }
+                else if (from.FraudulentActivityDectected())
+                {
+                    _notificationService.NotifyFraudlentActivity(from);
+                    throw new InvalidOperationException($"Fraudulent Activity dictated, Account is Temporarily Suspended");
+                    
+                }
 
+            }
+            else if (amount > from.balance)
+            {
+                throw new InvalidOperationException();
+            }
+          
             else
             {
-                throw new Exception();
+                throw new InvalidOperationException("Invalid Operation");
             }
-            _accountRepository.Update(to);
-            _accountRepository.Update(from);
-           
-
-
-            // ToDo
-
-
         }
     }
 }
